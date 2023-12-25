@@ -23,7 +23,7 @@ I received my undergraduate degree in Computer Science and Technology from the [
 
 My research interests include natural language processing, and I am currently focusing on research on LLM-Based Agent and the practical application of LLMs. I am also a member of the [LIU AI LAB](https://www.liuailab.org/), dedicated to cutting-edge research in artificial intelligence.
 
-I am looking for a job in the direction of large language models in artificial intelligence. If you are interested in me or have research and communication intentions, please feel free to check out my [CV](../assets/CV_2023_12.pdf) and contact me via [email](mailto:jkwzs0429@gmail.com).
+I am looking for a job in the direction of LLMs in artificial intelligence. If you are interested in me or have research and communication intentions, please feel free to check out my [CV](../assets/CV_2023_12.pdf) and contact me via [email](mailto:jkwzs0429@gmail.com).
 
 # 🔥 News
 - *2023.12*: &nbsp;🎉 One paper was accepted by AAAI 2024 NucLeaR Workshop, which is the starting point of my scientific research career!

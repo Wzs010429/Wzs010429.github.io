@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a second-year graduate student majoring in data science at the [School of Computer Science, University of Auckland (奥克兰大学计算机学院)](https://www.auckland.ac.nz/en/science/about-the-faculty/school-of-computer-science.html). My supervisor is [Jiamou Liu (刘佳谋)](https://profiles.auckland.ac.nz/jiamou-liu). My research direction is natural language processing and LLM-Based Agent.
+I am a second-year graduate student majoring in data science at the [School of Computer Science, University of Auckland (计算机学院)](https://www.auckland.ac.nz/en/science/about-the-faculty/school-of-computer-science.html). My supervisor is [Jiamou Liu (刘佳谋)](https://profiles.auckland.ac.nz/jiamou-liu). My research direction is natural language processing and LLM-Based Agent.
 
-I received my undergraduate degree in Computer Science and Technology from the [School of Computer Science and Technology, School of Software (计算机月信息科学学院 软件学院)](http://cis.swu.edu.cn), Southwest University in 2023.
+I received my undergraduate degree in Computer Science and Technology from the [School of Computer Science and Technology, School of Software (计算机与信息科学学院 软件学院)](http://cis.swu.edu.cn), Southwest University in 2023.
 
 My research interests include natural language processing, and I am currently focusing on research on LLM-Based Agent and the practical application of LLMs. I am also a member of the [LIU AI LAB](https://www.liuailab.org/), dedicated to cutting-edge research in artificial intelligence.
 

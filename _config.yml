@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
+title                    : "Zhongsheng Wang (王钟声)"
+description              : "Geeks never admit defeat."
+repository               : "Wzs010429/Wzs010429.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zhongsheng Wang (王钟声)"
   avatar           : "images/portrait.jpg"
-  bio              : "Geeks never end."
+  bio              : "Master Student at UoA, focusing on NLP and LLM-Based Agent."
   location         : "Auckland, New Zealand"
   employer         : "HouGarden.com LTD"
   pubmed           : 

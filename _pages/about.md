@@ -17,9 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a second-year graduate student majoring in data science at the [School of Computer Science, University of Auckland (奥克兰大学计算机学院)](https://www.auckland.ac.nz/en/science/about-the-faculty/school-of-computer-science.html). My supervisor is [Jiamou Liu (刘佳谋)](https://profiles.auckland.ac.nz/jiamou-liu). My research direction is natural language processing and LLM-Based Agent.
 
-My research interests include natural language processing, and I am currently focusing on research on LLM-Based Agent and the practical application of LLMs.
+I received my undergraduate degree in Computer Science and Technology from the [School of Computer Science and Technology, School of Software (计算机月信息科学学院 软件学院)](http://cis.swu.edu.cn), Southwest University in 2023.
+
+My research interests include natural language processing, and I am currently focusing on research on LLM-Based Agent and the practical application of LLMs. I am also a member of the [LIU AI LAB](https://www.liuailab.org/), dedicated to cutting-edge research in artificial intelligence.
+
+I am looking for a job in the direction of large language models in artificial intelligence. If you are interested in me or have research and communication intentions, please feel free to check out my [CV](../assets/CV_2023_12.pdf) and contact me via [email](mailto:jkwzs0429@gmail.com).
 
 # 🔥 News
 - *2023.12*: &nbsp;🎉 One paper was accepted by AAAI 2024 NucLeaR Workshop, which is the starting point of my scientific research career!
@@ -41,12 +45,17 @@ My research interests include natural language processing, and I am currently fo
 
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2020.12* Third-class scholarship of Southwest University, Outstanding Student Cadre, Outstanding Communist Youth League Cadre, Advanced Individual with Spiritual Civilization
+- *2021.12* Third-class scholarship of Southwest University, Outstanding Student Cadre
 
 # 📖 Educations
 - *2022.07 - 2024.06 (now)*, Master, School of Computer Science, University of Auckland, New Zealand.
-- *2019.09 - 2013.06*, Undergraduate, School of Computer Science and Information Technology, Southwest Univeristy, Chongqing.
+- *2019.09 - 2023.06*, Undergraduate, School of Computer Science and Information Technology, Southwest Univeristy, Chongqing.
+
+
+# 💬 Invited Talks
+
+Not yet...
 
 
 # 💻 Internships

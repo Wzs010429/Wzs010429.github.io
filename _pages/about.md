@@ -37,8 +37,8 @@ I am looking for a job in the direction of LLMs in artificial intelligence. If y
 
 **Zhongsheng Wang**, Jiamou Liu, Qiming Bao, Hongfei Rong, Jingfeng Zhang
 
-[**Project**](https://github.com/Strong-AI-Lab/ChatLogic)
-- Let LLMs generate reliable code for multi-step reasoning, and it has already shown its advantage in [PARARULE-PLUS](https://github.com/Strong-AI-Lab/PARARULE-Plus).
+[**Project**](https://github.com/Strong-AI-Lab/ChatLogic) [**Poster**](../assets/ChatLogic Poster.pdf) [**Slides**](../assets/ChatLogic.pdf)
+- Let LLMs generate reliable code for multi-step reasoning, which has already shown its advantage in [PARARULE-PLUS](https://github.com/Strong-AI-Lab/PARARULE-Plus).
 - A viable new paradigm for generating reliable code.
 </div>
 </div>

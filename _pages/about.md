@@ -21,16 +21,18 @@ I am a second-year graduate student majoring in data science at the [School of C
 
 I received my undergraduate degree in Computer Science and Technology from the [School of Computer Science and Technology, School of Software (计算机与信息科学学院 软件学院)](http://cis.swu.edu.cn), Southwest University in 2023.
 
-My research interests include natural language processing, and I am currently focusing on research on LLM-Based Agent and the practical application of LLMs. I am also a member of the [LIU AI LAB](https://www.liuailab.org/), dedicated to cutting-edge research in artificial intelligence.
+My research interests include natural language processing, and I am currently focusing on research on LLM-Based Agents and the practical application of LLMs. I am also a member of the [LIU AI LAB](https://www.liuailab.org/), which is dedicated to cutting-edge research in artificial intelligence.
 
 I am looking for a job in the direction of LLMs in artificial intelligence. If you are interested in me or have research and communication intentions, please feel free to check out my [CV](../assets/CV_2023_12.pdf) and contact me via [email](mailto:jkwzs0429@gmail.com).
 
 # 🔥 News
+
+- *2024.03*: &nbsp;🎉 One WCCI2024 accepted paper, the first paper I published in the real sense.
 - *2023.12*: &nbsp;🎉 One paper was accepted by AAAI 2024 NucLeaR Workshop, which is the starting point of my scientific research career!
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024 NucLeaR</div><img src='images/ChatLogic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024 NucLeaR/WCCI 2024</div><img src='images/ChatLogic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [ChatLogic: Integrating Logic Programming with Large Language Models for Multi-step Reasoning](https://openreview.net/attachment?id=AOqGF7Po7Z&name=pdf)
@@ -45,17 +47,19 @@ I am looking for a job in the direction of LLMs in artificial intelligence. If y
 
 
 # 🎖 Honors and Awards
-- *2020.12* Third-class scholarship of Southwest University, Outstanding Student Cadre, Outstanding Communist Youth League Cadre, Advanced Individual with Spiritual Civilization
+
 - *2021.12* Third-class scholarship of Southwest University, Outstanding Student Cadre
+- *2020.12* Third-class scholarship of Southwest University, Outstanding Student Cadre, Outstanding Communist Youth League Cadre, Advanced Individual with Spiritual Civilization
+
 
 # 📖 Educations
 - *2022.07 - 2024.06 (now)*, Master, School of Computer Science, University of Auckland, New Zealand.
-- *2019.09 - 2023.06*, Undergraduate, School of Computer Science and Information Technology, Southwest Univeristy, Chongqing.
+- *2019.09 - 2023.06*, Undergraduate, School of Computer Science and Information Technology, Southwest University, Chongqing.
 
 
 # 💬 Invited Talks
 
-Not yet...
+Still waiting.
 
 
 # 💻 Internships

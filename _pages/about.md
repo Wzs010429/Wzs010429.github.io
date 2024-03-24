@@ -35,7 +35,7 @@ I am looking for a job in the direction of LLMs in artificial intelligence. If y
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">WCCI 2024 (IJCNN)</div><img src='images/demo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Epic-Level Text Generation with LLM Through Auto-Prompted Reinforcement Learning]('images/m91695-qi paper.pdf') TB Update Camera-ready
+[Epic-Level Text Generation with LLM Through Auto-Prompted Reinforcement Learning](https://github.com/Wzs010429/Wzs010429.github.io/blob/main/images/m91695-qi%20paper.pdf) TB Update Camera-ready
 
 Qianqian Qi, Lin Ni, **Zhongsheng Wang**, Jiamou Liu, Michael Witbrock
 

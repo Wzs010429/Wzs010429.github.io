@@ -27,12 +27,26 @@ I am looking for a job in the direction of LLMs in artificial intelligence. If y
 
 # 🔥 News
 
-- *2024.03*: &nbsp;🎉 One WCCI2024 accepted paper, the first paper I published in the real sense.
+- *2024.03*: &nbsp;🎉 Two papers were accepted by WCCI2024 (1st and 3rd author), the first time I published in the real sense.
 - *2023.12*: &nbsp;🎉 One paper was accepted by AAAI 2024 NucLeaR Workshop, which is the starting point of my scientific research career!
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024 NucLeaR/WCCI 2024</div><img src='images/ChatLogic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WCCI 2024 (IJCNN)</div><img src='images/demo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Epic-Level Text Generation with LLM Through Auto-Prompted Reinforcement Learning]('images/m91695-qi paper.pdf') TB Update Camera-ready
+
+Qianqian Qi, Lin Ni, **Zhongsheng Wang**, Jiamou Liu, Michael Witbrock
+
+[**Project**](https://github.com/Wzs010429/Auto-Prompted-Reinforcement-Learning-for-Iterative-Long-Text-Generation-with-ChatGPT)
+- Use the PPO strategy to break through the token limit, realize the generation of ultra-long novel text, and ensure the continuity between chapters and paragraphs.
+- A new set of ideas for self-supervised ordered text generation.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024 NucLeaR/WCCI 2024 (IJCNN)</div><img src='images/ChatLogic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [ChatLogic: Integrating Logic Programming with Large Language Models for Multi-step Reasoning](https://openreview.net/attachment?id=AOqGF7Po7Z&name=pdf)
@@ -44,6 +58,8 @@ I am looking for a job in the direction of LLMs in artificial intelligence. If y
 - A viable new paradigm for generating reliable code.
 </div>
 </div>
+
+
 
 
 # 🎖 Honors and Awards

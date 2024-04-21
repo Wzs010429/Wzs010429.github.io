@@ -21,12 +21,14 @@ I am a second-year graduate student majoring in data science at the [School of C
 
 I received my undergraduate degree in Computer Science and Technology from the [School of Computer Science and Technology, School of Software (计算机与信息科学学院 软件学院)](http://cis.swu.edu.cn), Southwest University in 2023.
 
-My research interests include natural language processing, and I am currently focusing on research on LLM-Based Agents and the practical application of LLMs. I am also a member of the [LIU AI LAB](https://www.liuailab.org/), which is dedicated to cutting-edge research in artificial intelligence.
+My research interests include natural language processing, and I am currently focusing on research on LLM-Based Agents and the practical application of LLMs. I am also a member of the [LIU AI LAB](https://www.liuailab.org/), dedicated to cutting-edge research in artificial intelligence.
 
 I am looking for a job in the direction of LLMs in artificial intelligence. If you are interested in me or have research and communication intentions, please feel free to check out my [CV](../assets/CV_2023_12.pdf) and contact me via [email](mailto:jkwzs0429@gmail.com).
 
 # 🔥 News
 
+- *2024.07*: &nbsp;🤗 Go to Yokohama, Japan to attend WCCI2024 and present the paper on-site. Looking forward to meeting you guys!
+- *2024.05*: &nbsp;📍 As a local volunteer at AAMAS’24 (New Zealand), looking forward to meeting more people and new inspirations.
 - *2024.03*: &nbsp;🎉 Two papers were accepted by WCCI2024 (1st and 3rd author), the first time I published in the real sense.
 - *2023.12*: &nbsp;🎉 One paper was accepted by AAAI 2024 NucLeaR Workshop, which is the starting point of my scientific research career!
 
@@ -69,8 +71,8 @@ Qianqian Qi, Lin Ni, **Zhongsheng Wang**, Jiamou Liu, Michael Witbrock
 
 
 # 📖 Educations
-- *2022.07 - 2024.06 (now)*, Master, School of Computer Science, University of Auckland, New Zealand.
-- *2019.09 - 2023.06*, Undergraduate, School of Computer Science and Information Technology, Southwest University, Chongqing.
+- *2022.07 - 2024.06 (now)*, Master of Data Science, School of Computer Science, University of Auckland, New Zealand.
+- *2019.09 - 2023.06*, Bachlor of Computer Science and Technology, School of Computer Science and Information Technology, Southwest University, Chongqing.
 
 
 # 💬 Invited Talks

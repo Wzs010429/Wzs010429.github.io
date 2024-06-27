@@ -17,11 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently preparing to start my PhD study in the School of Computer Science, University of Auckland. My supervisors are [Jiamou Liu (刘佳谋)](https://profiles.auckland.ac.nz/jiamou-liu) and [Qian Liu (刘茜)](https://profiles.auckland.ac.nz/liu-qian). My research direction is natural language processing and LLM-Based Agent.
+I am preparing to start my PhD in the School of Computer Science, University of Auckland. My supervisors are [Jiamou Liu (刘佳谋)](https://profiles.auckland.ac.nz/jiamou-liu) and [Qian Liu (刘茜)](https://profiles.auckland.ac.nz/liu-qian). My research direction is natural language processing and LLM-Based Agent.
 
-I received my undergraduate degree in Computer Science and Technology from the [School of Computer Science and Technology, School of Software (计算机与信息科学学院 软件学院)](http://cis.swu.edu.cn), Southwest University in 2023 and master degree in Data Science at the [School of Computer Science, University of Auckland (计算机学院)](https://www.auckland.ac.nz/en/science/about-the-faculty/school-of-computer-science.html).
+I received my undergraduate degree in Computer Science and Technology from the [School of Computer Science and Technology, School of Software (计算机与信息科学学院 软件学院)](http://cis.swu.edu.cn), Southwest University in 2023 and master degree in Data Science at the [School of Computer Science, University of Auckland (计算机学院)](https://www.auckland.ac.nz/en/science/about-the-faculty/school-of-computer-science.html) in 2024.
 
-My research interests include natural language processing, and I am currently focusing on research on LLM-Based Agents and the practical application of LLMs. I am also a member of the [LIU AI LAB](https://www.liuailab.org/), dedicated to cutting-edge research in artificial intelligence.
+My research interests include natural language processing, and I am currently focusing on research on LLM-Based Agents and the practical application of LLMs. I am also a member of the [LIU AI LAB](https://www.liuailab.org/), which is dedicated to cutting-edge research in artificial intelligence.
 
 I am looking for a job in the direction of LLMs in artificial intelligence. If you are interested in me or have research and communication intentions, please feel free to check out my [CV](../assets/CV_2023_12.pdf) and contact me via [email](mailto:jkwzs0429@gmail.com).
 
@@ -71,7 +71,7 @@ Qianqian Qi, Lin Ni, **Zhongsheng Wang**, Jiamou Liu, Michael Witbrock
 
 
 # 📖 Educations
-- *2024.07 - now*, Doctor of Philosophy in Computer Science, University of Auckland, New Zealand.
+- *2024.08 - now*, Doctor of Philosophy in Computer Science, University of Auckland, New Zealand.
 - *2022.07 - 2024.07*, Master of Data Science, School of Computer Science, University of Auckland, New Zealand.
 - *2019.09 - 2023.06*, Bachlor of Computer Science and Technology, School of Computer Science and Information Technology, Southwest University, Chongqing.
 

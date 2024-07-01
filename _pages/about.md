@@ -71,7 +71,7 @@ Qianqian Qi, Lin Ni, **Zhongsheng Wang**, Jiamou Liu, Michael Witbrock
 
 
 # 📖 Educations
-- *2024.08 - now*, Doctor of Philosophy in Computer Science, University of Auckland, New Zealand.
+- *2024.08 - now*, Doctor of Philosophy in Computer Science, School of Computer Science, University of Auckland, New Zealand.
 - *2022.07 - 2024.07*, Master of Data Science, School of Computer Science, University of Auckland, New Zealand.
 - *2019.09 - 2023.06*, Bachlor of Computer Science and Technology, School of Computer Science and Information Technology, Southwest University, Chongqing.
 

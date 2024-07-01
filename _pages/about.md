@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am preparing to start my PhD in the School of Computer Science, University of Auckland. My supervisors are [Jiamou Liu (刘佳谋)](https://profiles.auckland.ac.nz/jiamou-liu) and [Qian Liu (刘茜)](https://profiles.auckland.ac.nz/liu-qian). My research direction is natural language processing and LLM-Based Agent.
+I am preparing to start my PhD in the School of Computer Science, University of Auckland. My supervisors are Prof. [Jiamou Liu (刘佳谋)](https://profiles.auckland.ac.nz/jiamou-liu) and Dr. [Qian Liu (刘茜)](https://profiles.auckland.ac.nz/liu-qian). My research direction is natural language processing and LLM-Based Agent.
 
 I received my undergraduate degree in Computer Science and Technology from the [School of Computer Science and Technology, School of Software (计算机与信息科学学院 软件学院)](http://cis.swu.edu.cn), Southwest University in 2023 and master degree in Data Science at the [School of Computer Science, University of Auckland (计算机学院)](https://www.auckland.ac.nz/en/science/about-the-faculty/school-of-computer-science.html) in 2024.
 

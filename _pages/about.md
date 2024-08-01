@@ -17,13 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am preparing to start my PhD in the School of Computer Science, University of Auckland. My supervisors are Prof. [Jiamou Liu (刘佳谋)](https://profiles.auckland.ac.nz/jiamou-liu) and Dr. [Qian Liu (刘茜)](https://profiles.auckland.ac.nz/liu-qian). My research direction is natural language processing and LLM-Based Agent.
+I am preparing to start my PhD in the School of Computer Science, University of Auckland. My supervisors are Prof. [Jiamou Liu (刘佳谋)](https://profiles.auckland.ac.nz/jiamou-liu) and Dr. [Qian Liu (刘茜)](https://profiles.auckland.ac.nz/liu-qian). My research direction is Trustworthy LLM Agents Based on Dynamic Multimodal Retrieval-Augmented Generation.
 
 I received my undergraduate degree in Computer Science and Technology from the [School of Computer Science and Technology, School of Software (计算机与信息科学学院 软件学院)](http://cis.swu.edu.cn), Southwest University in 2023 and master degree in Data Science at the [School of Computer Science, University of Auckland (计算机学院)](https://www.auckland.ac.nz/en/science/about-the-faculty/school-of-computer-science.html) in 2024.
 
 My research interests include natural language processing, and I am currently focusing on research on LLM-Based Agents and the practical application of LLMs. I am also a member of the [LIU AI LAB](https://www.liuailab.org/), which is dedicated to cutting-edge research in artificial intelligence.
 
-I am looking for a job in the direction of LLMs in artificial intelligence. If you are interested in me or have research and communication intentions, please feel free to check out my [CV](../assets/CV_2023_12.pdf) and contact me via [email](mailto:jkwzs0429@gmail.com).
+I am looking for a job in the direction of LLMs in artificial intelligence. If you are interested in me or have research and communication intentions, please feel free to check out my [CV](../assets/CV_Zhongsheng_Wang.pdf) and contact me via [email](mailto:jkwzs0429@gmail.com).
 
 # 🔥 News & Updates
 
@@ -31,6 +31,9 @@ I am looking for a job in the direction of LLMs in artificial intelligence. If y
 - *2024.05*: &nbsp;📍 As a local volunteer at AAMAS’24 (New Zealand), looking forward to meeting more people and new inspirations.
 - *2024.03*: &nbsp;🎉 Two papers were accepted by WCCI2024 (1st and 3rd author), the first time I published in the real sense.
 - *2023.12*: &nbsp;🎉 One paper was accepted by AAAI 2024 NucLeaR Workshop, which is the starting point of my scientific research career!
+
+
+
 
 # 📝 Publications 
 
@@ -51,7 +54,7 @@ Qianqian Qi, Lin Ni, **Zhongsheng Wang**, Jiamou Liu, Michael Witbrock
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024 NucLeaR/WCCI 2024 (IJCNN)</div><img src='images/ChatLogic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[ChatLogic: Integrating Logic Programming with Large Language Models for Multi-step Reasoning](https://openreview.net/attachment?id=AOqGF7Po7Z&name=pdf)
+[ChatLogic: Integrating Logic Programming with Large Language Models for Multi-step Reasoning](https://arxiv.org/abs/2407.10162)
 
 **Zhongsheng Wang**, Jiamou Liu, Qiming Bao, Hongfei Rong, Jingfeng Zhang
 
@@ -71,12 +74,15 @@ Qianqian Qi, Lin Ni, **Zhongsheng Wang**, Jiamou Liu, Michael Witbrock
 
 
 # 📖 Educations
-- *2024.08 - now*, Doctor of Philosophy in Computer Science, School of Computer Science, University of Auckland, New Zealand.
-- *2022.07 - 2024.07*, Master of Data Science, School of Computer Science, University of Auckland, New Zealand.
+- *2024.09 - now*, Doctor of Philosophy in Computer Science, School of Computer Science, University of Auckland, New Zealand.
+- *2022.07 - 2024.06*, Master of Data Science, School of Computer Science, University of Auckland, New Zealand.
 - *2019.09 - 2023.06*, Bachlor of Computer Science and Technology, School of Computer Science and Information Technology, Southwest University, Chongqing.
 
+# 🎞 Academic Services
 
+## Conference Conference Reviewer
 
+ICONIP 2024
 
 # 💻 Working Experiences
 - *2023.11 - 2024.02*, Summer Intern as an AI Developer at [HouGarden](https://nz.hougarden.com/), New Zealand.

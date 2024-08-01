@@ -25,7 +25,7 @@ My research interests include natural language processing, and I am currently fo
 
 I am looking for a job in the direction of LLMs in artificial intelligence. If you are interested in me or have research and communication intentions, please feel free to check out my [CV](../assets/CV_2023_12.pdf) and contact me via [email](mailto:jkwzs0429@gmail.com).
 
-# 🔥 News
+# 🔥 News & Updates
 
 - *2024.07*: &nbsp;🤗 Go to Yokohama, Japan to attend WCCI2024 and present the paper on-site. Looking forward to meeting you guys!
 - *2024.05*: &nbsp;📍 As a local volunteer at AAMAS’24 (New Zealand), looking forward to meeting more people and new inspirations.
@@ -76,10 +76,7 @@ Qianqian Qi, Lin Ni, **Zhongsheng Wang**, Jiamou Liu, Michael Witbrock
 - *2019.09 - 2023.06*, Bachlor of Computer Science and Technology, School of Computer Science and Information Technology, Southwest University, Chongqing.
 
 
-# 💬 Invited Talks
-
-Still waiting.
 
 
-# 💻 Internships
+# 💻 Working Experiences
 - *2023.11 - 2024.02*, Summer Intern as an AI Developer at [HouGarden](https://nz.hougarden.com/), New Zealand.

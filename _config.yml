@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zhongsheng Wang (王钟声)"
   avatar           : "images/portrait.jpg"
-  bio              : "Master Student at UoA, focusing on NLP and LLM-Based Agent."
+  bio              : "PhD Candidate at UoA, focusing on Trustworthy AI Agents based on MRAG."
   location         : "Auckland, New Zealand"
   employer         : 
   pubmed           : 

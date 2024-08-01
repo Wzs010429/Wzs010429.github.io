@@ -27,9 +27,10 @@ I am looking for a job in the direction of LLMs in artificial intelligence. If y
 
 # 🔥 News & Updates
 
-- *2024.07*: &nbsp;🤗 Go to Yokohama, Japan to attend WCCI2024 and present the paper on-site. Looking forward to meeting you guys!
-- *2024.05*: &nbsp;📍 As a local volunteer at AAMAS’24 (New Zealand), looking forward to meeting more people and new inspirations.
-- *2024.03*: &nbsp;🎉 Two papers were accepted by WCCI2024 (1st and 3rd author), the first time I published in the real sense.
+- *2024.08*: &nbsp;📍 PC Member for ICONIP 2024.
+- *2024.07*: &nbsp;🤗 Go to Yokohama, Japan to attend WCCI 2024 and present the paper on-site. Looking forward to meeting you guys!
+- *2024.05*: &nbsp;📍 As a local volunteer at AAMAS 2024 (New Zealand), looking forward to meeting more people and new inspirations.
+- *2024.03*: &nbsp;🎉 Two papers were accepted by WCCI 2024 (1st and 3rd author), the first time I published in the real sense.
 - *2023.12*: &nbsp;🎉 One paper was accepted by AAAI 2024 NucLeaR Workshop, which is the starting point of my scientific research career!
 
 
@@ -80,9 +81,12 @@ Qianqian Qi, Lin Ni, **Zhongsheng Wang**, Jiamou Liu, Michael Witbrock
 
 # 🎞 Academic Services
 
-## Conference Conference Reviewer
+## Conference Reviewer
 
 ICONIP 2024
 
 # 💻 Working Experiences
+
+- *2024.07 - now*, Graduate Teaching Assistant for COMPSCI 761: Advanced Topics in Artificial Intelligence, at the University of Auckland, New Zealand.
 - *2023.11 - 2024.02*, Summer Intern as an AI Developer at [HouGarden](https://nz.hougarden.com/), New Zealand.
+- *2023.07 - 2024.11*, Graduate Teaching Assistant for COMPSCI 367: Artificial Intelligence, at the University of Auckland, New Zealand.

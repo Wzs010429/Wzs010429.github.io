@@ -27,6 +27,7 @@ I am looking for a job in the direction of LLMs in artificial intelligence. If y
 
 # 🔥 News & Updates
 
+- *2024.08*: &nbsp;🎉 One paper was accepted by ICONIP 2024, see u guys in Auckland!
 - *2024.08*: &nbsp;📍 PC Member for ICONIP 2024.
 - *2024.07*: &nbsp;🤗 Go to Yokohama, Japan to attend WCCI 2024 and present the paper on-site. Looking forward to meeting you guys!
 - *2024.05*: &nbsp;📍 As a local volunteer at AAMAS 2024 (New Zealand), looking forward to meeting more people and new inspirations.
@@ -37,6 +38,23 @@ I am looking for a job in the direction of LLMs in artificial intelligence. If y
 
 
 # 📝 Publications 
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICONIP 2024</div><img src='images/framework.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Weak Supervision Techniques towards Enhanced ASR Models in Industry-level CRM Systems]() TB Update Camera-ready
+
+**Zhongsheng Wang**, Sijie Wang, Jia Wang, Yung-I Liang, Yuxi Zhang, Jiamou Liu
+
+[**Project**](https://github.com/Wzs010429/ATOM-ASR)
+- We develop a paradigm for generating high-quality labeled speech data which is feasible for industry applications.
+- A new evaluation metric for multilingual ASR models.
+</div>
+</div>
+
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">WCCI 2024 (IJCNN)</div><img src='images/demo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

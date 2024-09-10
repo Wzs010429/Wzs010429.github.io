@@ -25,11 +25,11 @@ author:
   avatar           : "images/portrait.jpg"
   bio              : "PhD Candidate at UoA, focusing on Trustworthy AI Agents based on MRAG."
   location         : "Auckland, New Zealand"
-  employer         : 
+  employer         : "University of Auckland"
   pubmed           : 
   googlescholar    : #
   email            : "jkwzs0429@gmail.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Zhongsheng-Wang-5" # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
@@ -37,13 +37,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/Wzs010429" # e.g., "github username"
+  github           : "Wzs010429" # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/zhongsheng-wang-095804278/" # e.g., "linkedin username"
+  linkedin         : "zhongsheng-wang-095804278" # e.g., "linkedin username"
   dblp             :  # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : "https://orcid.org/0009-0003-4235-7710"# e.g., "https://orcid.org/xxxx"
   pinterest        :

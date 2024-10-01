@@ -27,7 +27,7 @@ I am looking for a job in the direction of LLMs in artificial intelligence. If y
 
 # 🔥 News & Updates
 
-- *2024.08*: &nbsp;🎉 One paper was accepted by ICONIP 2024, see u guys in Auckland!
+- *2024.08*: &nbsp;🎉 One paper was accepted by ICONIP 2024, see u guys in Auckland this December!
 - *2024.08*: &nbsp;📍 PC Member for ICONIP 2024.
 - *2024.07*: &nbsp;🤗 Go to Yokohama, Japan to attend WCCI 2024 and present the paper on-site. Looking forward to meeting you guys!
 - *2024.05*: &nbsp;📍 As a local volunteer at AAMAS 2024 (New Zealand), looking forward to meeting more people and new inspirations.
@@ -93,7 +93,7 @@ Qianqian Qi, Lin Ni, **Zhongsheng Wang**, Jiamou Liu, Michael Witbrock
 
 
 # 📖 Educations
-- *2024.09 - now*, Doctor of Philosophy in Computer Science, School of Computer Science, University of Auckland, New Zealand.
+- *2025.03 -*, Doctor of Philosophy in Computer Science, School of Computer Science, University of Auckland, New Zealand.
 - *2022.07 - 2024.06*, Master of Data Science, School of Computer Science, University of Auckland, New Zealand.
 - *2019.09 - 2023.06*, Bachlor of Computer Science and Technology, School of Computer Science and Information Technology, Southwest University, Chongqing.
 

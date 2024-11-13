@@ -61,7 +61,7 @@ I am looking for a job in the direction of LLMs in artificial intelligence. If y
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">WCCI 2024 (IJCNN)</div><img src='images/demo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Epic-Level Text Generation with LLM Through Auto-Prompted Reinforcement Learning](https://github.com/Wzs010429/Wzs010429.github.io/blob/main/images/m91695-qi%20paper.pdf) TB Update Camera-ready
+[Epic-Level Text Generation with LLM Through Auto-Prompted Reinforcement Learning](https://github.com/Wzs010429/Wzs010429.github.io/blob/main/images/m91695-qi%20paper.pdf) [IEEE Paper Link](https://ieeexplore.ieee.org/document/10650358)
 
 Qianqian Qi, Lin Ni, **Zhongsheng Wang**, Jiamou Liu, Michael Witbrock
 
@@ -75,7 +75,7 @@ Qianqian Qi, Lin Ni, **Zhongsheng Wang**, Jiamou Liu, Michael Witbrock
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024 NucLeaR/WCCI 2024 (IJCNN)</div><img src='images/ChatLogic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[ChatLogic: Integrating Logic Programming with Large Language Models for Multi-step Reasoning](https://arxiv.org/abs/2407.10162)
+[ChatLogic: Integrating Logic Programming with Large Language Models for Multi-step Reasoning](https://arxiv.org/abs/2407.10162) [IEEE Paper Link](https://ieeexplore.ieee.org/document/10650138)
 
 **Zhongsheng Wang**, Jiamou Liu, Qiming Bao, Hongfei Rong, Jingfeng Zhang
 
@@ -85,7 +85,7 @@ Qianqian Qi, Lin Ni, **Zhongsheng Wang**, Jiamou Liu, Michael Witbrock
 </div>
 </div>
 
-
+- ``Arxiv`` [CoRA: Optimizing Low-Rank Adaptation with Common Subspace of Large Language Models](https://arxiv.org/abs/2409.02119), Xiaojun Xiao, Sen Shen, Qiming Bao, Hongfei Rong, Kairui Liu, **Zhongsheng Wang**, Jiamou Liu.
 
 
 # 🎖 Honors and Awards
@@ -107,6 +107,6 @@ ICONIP 2024
 
 # 💻 Working Experiences
 
-- *2024.07 - now*, Graduate Teaching Assistant for COMPSCI 761: Advanced Topics in Artificial Intelligence, at the University of Auckland, New Zealand.
+- *2024.07 - 2024.11*, Graduate Teaching Assistant for COMPSCI 761: Advanced Topics in Artificial Intelligence, at the University of Auckland, New Zealand.
 - *2023.11 - 2024.02*, Summer Intern as an AI Developer at [HouGarden](https://nz.hougarden.com/), New Zealand.
 - *2023.07 - 2024.11*, Graduate Teaching Assistant for COMPSCI 367: Artificial Intelligence, at the University of Auckland, New Zealand.

@@ -3,34 +3,44 @@
    ========================================================================== */
 
 div.highlighter-rouge, figure.highlight {
-  position: relative;
-  margin-bottom: 1em;
-  padding: 1em;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  background-color: $code-background-color;
-  box-shadow: $box-shadow;
+position: relative;
+margin-bottom: 1em;
+padding: 1em;
+border: 1px solid $border-color;
+border-radius: $border-radius;
+background-color: $code-background-color;
+box-shadow: $box-shadow;
 
-  &:before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 0.5em;
-    background-color: $lighter-gray;
-    content: "\f121";
-    font-family: "fontawesome" !important;
-    font-size: $type-size-6;
-    line-height: 1;
-    text-transform: none;
-    speak: none;
-  }
+&:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5em;
+  background-color: $lighter-gray;
+  content: "\f121";
+  font-family: "fontawesome" !important;
+  font-size: $type-size-6;
+  line-height: 1;
+  text-transform: none;
+  speak: none;
+}
 
-  .highlight {
-    margin: 0;
-    font-family: $monospace;
-    font-size: $type-size-7;
-    line-height: 1.8;
-  }
+.highlight {
+  margin: 0;
+  font-family: $monospace;
+  font-size: $type-size-7;
+  line-height: 1.8;
+}
+}
+
+.highlighter-rouge{
+background-color: #03228d;
+color: white;
+margin-bottom: 0em;
+padding: 0em;
+font-size: $type-size-7;
+border: 0px solid $border-color;
+border-radius: 0;
 }
 
 .highlight table td { padding: 5px; }
@@ -38,20 +48,20 @@ div.highlighter-rouge, figure.highlight {
 
 
 /*
-   Solarized Light
-   http://ethanschoonover.com/solarized
+  Solarized Light
+  http://ethanschoonover.com/solarized
 
-   SOLARIZED HEX      ROLE
-   --------- -------- ------------------------------------------
-   base01    #586e75  body text / default code / primary content
-   base1     #93a1a1  comments / secondary content
-   base3     #fdf6e3  background
-   orange    #cb4b16  constants
-   red       #dc322f  regex, special keywords
-   blue      #22b3eb  reserved keywords
-   cyan      #2aa198  strings, numbers
-   green     #859900  operators, other keywords
-   ========================================================================== */
+  SOLARIZED HEX      ROLE
+  --------- -------- ------------------------------------------
+  base01    #586e75  body text / default code / primary content
+  base1     #93a1a1  comments / secondary content
+  base3     #fdf6e3  background
+  orange    #cb4b16  constants
+  red       #dc322f  regex, special keywords
+  blue      #22b3eb  reserved keywords
+  cyan      #2aa198  strings, numbers
+  green     #859900  operators, other keywords
+  ========================================================================== */
 
 .highlight .c { color: #93a1a1 } /* Comment */
 .highlight .err { color: #586e75 } /* Error */

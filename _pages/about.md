@@ -103,7 +103,7 @@ Qianqian Qi, Lin Ni, **Zhongsheng Wang**, Jiamou Liu, Michael Witbrock
 
 ## Conference Reviewer
 
-ICONIP 2024
+ICONIP 2024, IJCNN 2025
 
 # 💻 Working Experiences
 

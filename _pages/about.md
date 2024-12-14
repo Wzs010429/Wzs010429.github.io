@@ -27,7 +27,7 @@ I am looking for a job in the direction of LLMs in artificial intelligence. If y
 
 # 🔥 News & Updates
 
-- *2024.11*: &nbsp;📍 Visit UESTC at the invitation of Prof. Toru Takisaka, and had a small talk about LLM reasoning \& model checking.
+- *2024.12*: &nbsp;📍 Visit UESTC at the invitation of Prof. Toru Takisaka, and had a small talk about LLM reasoning \& model checking.
 - *2024.11*: &nbsp;📍 Second trip to Japan! Attending PAKW 2024 (Kyoto Conference), Osaka, Mt. Fuji, Tokyo…
 - *2024.09*: &nbsp;🤗 Obtain the Master's degree in Data Science from the School of Computer Science at the University of Auckland! [LinkedIn Posts](https://www.linkedin.com/feed/update/urn:li:activity:7244532203936718849/) 
 - *2024.08*: &nbsp;🎉 One paper was accepted by ICONIP 2024, see u guys in Auckland this December!

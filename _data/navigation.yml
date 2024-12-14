@@ -18,6 +18,8 @@ main:
   - title: "Academic Services"
     url: "/#-Academic-Services"
   
+  - title: "Talks"
+    url: "/#-Talks"
 
   - title: "Internships"
     url: "/#-internships"

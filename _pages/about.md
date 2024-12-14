@@ -107,9 +107,9 @@ Qianqian Qi, Lin Ni, **Zhongsheng Wang**, Jiamou Liu, Michael Witbrock
 ICONIP 2024, IJCNN 2025
 
 
-# 🗣️Talk
+# 🗣️Talks
 
-- *2024.12*, ``Creative Intelligence: Applications of Large Language Models in Data Generation and Reasoning'', University of Electronic Science and Technology of China, Chengdu, China.
+- *2024.12*, ''Creative Intelligence: Applications of Large Language Models in Data Generation and Reasoning'', University of Electronic Science and Technology of China, Chengdu, China.
 
 # 💻 Working Experiences
 

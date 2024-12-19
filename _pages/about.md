@@ -23,13 +23,13 @@ I received my undergraduate degree in Computer Science and Technology from the [
 
 My research interests include natural language processing, and I am currently focusing on research on LLM-Based Agents and the practical application of LLMs. I am also a member of the [LIU AI LAB](https://www.liuailab.org/), which is dedicated to cutting-edge research in artificial intelligence.
 
-I am looking for a job in the direction of LLMs in artificial intelligence. If you are interested in me or have research and communication intentions, please feel free to check out my [CV](../assets/CV_Zhongsheng_Wang.pdf) and contact me via [email](mailto:jkwzs0429@gmail.com).
+I am looking for a job in the direction of LLMs in artificial intelligence. If you are interested in me or have research and communication intentions, please feel free to check out my [CV](../Files/CV_Zhongsheng_Wang.pdf) and contact me via [email](mailto:jkwzs0429@gmail.com).
 
 # 🔥 News & Updates
 
-- *2024.12*: &nbsp;📍 Visit UESTC at the invitation of Prof. Toru Takisaka, and had a small talk about LLM reasoning \& model checking.
+- *2024.12*: &nbsp;📍 Visit UESTC at the invitation of Prof. Toru Takisaka, and had a small talk about LLM reasoning & model checking. [Website Link](https://tcsuestc.com/people/#visitors)
 - *2024.11*: &nbsp;📍 Second trip to Japan! Attending PAKW 2024 (Kyoto Conference), Osaka, Mt. Fuji, Tokyo…
-- *2024.09*: &nbsp;🤗 Obtain the Master's degree in Data Science from the School of Computer Science at the University of Auckland! [LinkedIn Posts](https://www.linkedin.com/feed/update/urn:li:activity:7244532203936718849/) 
+- *2024.09*: &nbsp;🤗 Obtain the Master's degree in Data Science from the School of Computer Science at the University of Auckland! [LinkedIn Posts](https://www.linkedin.com/feed/update/urn:li:activity:7244532203936718849/)
 - *2024.08*: &nbsp;🎉 One paper was accepted by ICONIP 2024, see u guys in Auckland this December!
 - *2024.08*: &nbsp;📍 PC Member for ICONIP 2024.
 - *2024.07*: &nbsp;🤗 Go to Yokohama, Japan to attend WCCI 2024 and present the paper on-site. Looking forward to meeting you guys!
@@ -62,7 +62,7 @@ I am looking for a job in the direction of LLMs in artificial intelligence. If y
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">WCCI 2024 (IJCNN)</div><img src='images/demo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Epic-Level Text Generation with LLM Through Auto-Prompted Reinforcement Learning](https://github.com/Wzs010429/Wzs010429.github.io/blob/main/images/m91695-qi%20paper.pdf) [IEEE Paper Link](https://ieeexplore.ieee.org/document/10650358)
+[Epic-Level Text Generation with LLM Through Auto-Prompted Reinforcement Learning](../Files/m91695-qi%20paper.pdf) [IEEE Paper Link](https://ieeexplore.ieee.org/document/10650358)
 
 Qianqian Qi, Lin Ni, **Zhongsheng Wang**, Jiamou Liu, Michael Witbrock
 
@@ -80,7 +80,7 @@ Qianqian Qi, Lin Ni, **Zhongsheng Wang**, Jiamou Liu, Michael Witbrock
 
 **Zhongsheng Wang**, Jiamou Liu, Qiming Bao, Hongfei Rong, Jingfeng Zhang
 
-[**Project**](https://github.com/Strong-AI-Lab/ChatLogic) [**Poster**](../assets/ChatLogic Poster.pdf) [**Slides**](../assets/ChatLogic.pdf)
+[**Project**](https://github.com/Strong-AI-Lab/ChatLogic) [**Poster**](../Files/ChatLogic%20Poster.pdf) [**Slides**](../Files/ChatLogic.pdf)
 - Let LLMs generate reliable code for multi-step reasoning, which has already shown its advantage in [PARARULE-PLUS](https://github.com/Strong-AI-Lab/PARARULE-Plus).
 - A viable new paradigm for generating reliable code.
 </div>
@@ -109,7 +109,7 @@ ICONIP 2024, IJCNN 2025
 
 # 🗣️Talks
 
-- *2024.12*, ''Creative Intelligence: Applications of Large Language Models in Data Generation and Reasoning'', University of Electronic Science and Technology of China, Chengdu, China.
+- *2024.12*, ''Creative Intelligence: Applications of Large Language Models in Data Generation and Reasoning'', University of Electronic Science and Technology of China, Chengdu, China. [Slides](../Files/UESTC_Talk_Zhongsheng_Wang_Dec_19__2024.pdf)
 
 # 💻 Working Experiences
 

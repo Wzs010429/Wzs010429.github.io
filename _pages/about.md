@@ -104,15 +104,17 @@ Qianqian Qi, Lin Ni, **Zhongsheng Wang**, Jiamou Liu, Michael Witbrock
 
 ## Conference Reviewer
 
-ICONIP 2024, IJCNN 2025
+- IJCNN 2025, Rome, Italy (Core Rank: A, CCF Rank: C)
+- ICONIP 2024, Auckland, New Zealand [Program Committee](../Files/ICONIP2024Certificate.pdf) (Core Rank: B, CCF Rank: C)
 
 
 # 🗣️Talks
 
-- *2024.12*, ''Creative Intelligence: Applications of Large Language Models in Data Generation and Reasoning'', University of Electronic Science and Technology of China, Chengdu, China. [Slides](../Files/UESTC_Talk_Zhongsheng_Wang_Dec_19__2024.pdf)
+- *2024.12*, ''Creative Intelligence: Applications of Large Language Models in Data Generation and Reasoning'', University of Electronic Science and Technology of China, Chengdu, China. [Slides](../Files/UESTC_Talk_Dec_19__2024.pdf) [Recording](https://www.bilibili.com/video/BV1hRk6Y2EAm/?spm_id_from=333.1387.homepage.video_card.click)
 
 # 💻 Working Experiences
 
 - *2024.07 - 2024.11*, Graduate Teaching Assistant for COMPSCI 761: Advanced Topics in Artificial Intelligence, at the University of Auckland, New Zealand.
+- *2024.05 - 2024.07*, AI Engineer at [Atom-Intelligence Group](https://www.atom-intelligence.com/), Shanghai, China.
 - *2023.11 - 2024.02*, Summer Intern as an AI Developer at [HouGarden](https://nz.hougarden.com/), New Zealand.
 - *2023.07 - 2024.11*, Graduate Teaching Assistant for COMPSCI 367: Artificial Intelligence, at the University of Auckland, New Zealand.

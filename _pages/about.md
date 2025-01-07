@@ -105,6 +105,7 @@ Qianqian Qi, Lin Ni, **Zhongsheng Wang**, Jiamou Liu, Michael Witbrock
 ## Conference Reviewer
 
 - IJCNN 2025, Rome, Italy (Core Rank: A, CCF Rank: C)
+- Reasoning and Planning for Large Language Models@ICLR 2025 [Program Committee](https://workshop-llm-reasoning-planning.github.io/)
 - ICONIP 2024, Auckland, New Zealand [Program Committee](../Files/ICONIP2024Certificate.pdf) (Core Rank: B, CCF Rank: C)
 
 

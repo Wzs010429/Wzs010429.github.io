@@ -6,13 +6,12 @@ layout: page
 
 <img src="https://caihanlin.com/caihanlin.jpg" class="floatpic">
 
-Here is **Hanlin Cai (Lance, 蔡汉霖)**.<br>
+Here is **Zhongsheng Wang (Spark, 王钟声)**.<br>
 
-I am a graduate student in the Department of Engineering at the University of Cambridge, advised by [Prof. Özgür Akan](https://ioe.eng.cam.ac.uk/directory/akan), within [Internet of Everything (IoE) Group](https://ioe.eng.cam.ac.uk/). I also spent a lovely summer research program with [Prof. Pietro Liò](https://www.cl.cam.ac.uk/~pl219/) at [Artificial Intelligence Group](https://www.cl.cam.ac.uk/research/ai/). Prior to Cambridge,  I have worked on System Engineering, Cybersecurity and Wireless Communication with [Prof. Zhezhuang Xu](https://scholar.google.com.hk/citations?user=iZ7LQRkAAAAJ&hl=zh-CN) and [Dr. Meng Yuan](https://myuan27.github.io/). Recently, I was honored to be selected as **AAAI-2024 and KDD-2024 Undergraduate Scholars**.<br>
+I am preparing to start my PhD in the School of Computer Science, University of Auckland. My supervisors are Prof. [Jiamou Liu (刘佳谋)](https://profiles.auckland.ac.nz/jiamou-liu) and Dr. [Qian Liu (刘茜)](https://profiles.auckland.ac.nz/liu-qian). My research direction is Trustworthy LLM Agents Based on Dynamic Multimodal Retrieval-Augmented Generation.
 
-If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - hc663 [at] cam.ac.uk
-
-**<font color="#990000">I am actively seeking a PhD position for 2025 Fall admission. If you have any information, please contact me. Thank you!</font>**
+I received my undergraduate degree in Computer Science and Technology from the [School of Computer Science and Technology, School of Software](http://cis.swu.edu.cn), Southwest University in 2023 and master degree in Data Science at the [School of Computer Science, University of Auckland](https://www.auckland.ac.nz/en/science/about-the-faculty/school-of-computer-science.html) in 2024.
+My research interests include natural language processing, and I am currently focusing on research on LLM-Based Agents and the practical application of LLMs. I am also a member of the [LIU AI LAB](https://www.liuailab.org/), which is dedicated to cutting-edge research in artificial intelligence. If you are interested in me or have research and communication intentions, feel free to check out my [CV](file/CV_Zhongsheng_Wang.pdf) and contact me at zwan516 [at] aucklanduni.ac.nz
 
 ---
 

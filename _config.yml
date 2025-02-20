@@ -10,7 +10,7 @@ owner:
   avatar: zhongsheng.jpg
   # bio: Two roads diverged in woods, I took the one less traveled by.
   email: jkwzs0429@gmail.com
-  cv: https://caihanlin.com/file/CV-HanlinCAI.pdf
+  # cv: https://jkwzs.cn/file/CV_Zhongsheng_Wang.pdf
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   # twitter: lancecai2002
   github: Wzs010429
@@ -38,16 +38,16 @@ owner:
 links:
   - title: About Me
     url: /
-  - title: Publications
-    url: /publications/
-  - title: Awards
-    url: /awards/
-  - title: Hobbies
-    url: /hobbies/
-  # - title: Startups
-    # url: /startups/
-  - title: Blogs
-    url: /blogs/
+  - title: Research
+    url: /research/
+  - title: Service
+    url: /service/
+  - title: Talk
+    url: /talk/
+  - title: Misc
+    url: /misc/
+  - title: Resume
+    url: /resume/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: China/Beijing

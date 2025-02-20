@@ -28,14 +28,14 @@ My current research focuses on practical problems that artificial intelligence f
 
 ## News and Updates
 
-- **June 2024**：Very excited to be selected as [KDD UC Scholar](https://kdd2024.kdd.org/undergraduate-consortium/). See you in Spain!
-- **May 2024：**My bachelor thesis won the Annual Best Thesis Award (Top 1/300).
-- **April 2024：**Our work *BLEGuard* has been accepted to [MobiSys 2024](https://www.sigmobile.org/mobisys/2024/) as a poster paper. See you in Japan!
-- **March 2024：**Very excited to get a MPhil offer from Engineering department at Cambridge University!
-- **Dec 2023：**Very excited to be selected as [AAAI UC Scholar](https://aaai.org/aaai-conference/undergraduate-consortium-program/). See you in Canada!
-- **Jun 2022：**Started research programme at [Cambridge AI Group](https://www.cl.cam.ac.uk/research/ai/), advised by Prof. Pietro Liò.
+- *2024.12*: &nbsp;📍 Visit UESTC at the invitation of Prof. [Toru Takisaka](https://takisaka.github.io/), and had a small talk about LLM reasoning & model checking. [Website Link](https://tcsuestc.com/people/#visitors)
+- *2024.11*: &nbsp;📍 Second trip to Japan! Attending PAKW 2024 (Kyoto Conference), Osaka, Mt. Fuji, Tokyo…
+- *2024.09*: &nbsp;🤗 Obtain the Master's degree in Data Science from the School of Computer Science at the University of Auckland! [LinkedIn Posts](https://www.linkedin.com/feed/update/urn:li:activity:7244532203936718849/)
+- *2024.08*: &nbsp;🎉 One paper was accepted by ICONIP 2024, see u guys in Auckland this December!
+- *2024.08*: &nbsp;📍 PC Member for ICONIP 2024.
+- *2024.07*: &nbsp;🤗 Go to Yokohama, Japan to attend WCCI 2024 and present the paper on-site. Looking forward to meeting you guys!
+- *2024.05*: &nbsp;📍 As a local volunteer at AAMAS 2024 (New Zealand), looking forward to meeting more people and new inspirations.
+- *2024.03*: &nbsp;🎉 Two papers were accepted by WCCI 2024 (1st and 3rd author), the first time I published in the real sense.
+- *2023.12*: &nbsp;🎉 One paper was accepted by AAAI 2024 NucLeaR Workshop, which is the starting point of my scientific research career!.
 
-<br>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thrilled to be an AAAI-UC Scholar at <a href="https://twitter.com/hashtag/AAAI24?src=hash&amp;ref_src=twsrc%5Etfw">#AAAI24</a>, thanks to <a href="https://twitter.com/hashtag/AAAI?src=hash&amp;ref_src=twsrc%5Etfw">#AAAI</a> &amp; <a href="https://twitter.com/hashtag/GoogleExploreCSR?src=hash&amp;ref_src=twsrc%5Etfw">#GoogleExploreCSR</a> for the sponsorship. Grateful for the knowledge gained and new friendships formed.<br><br>Wonderful trip in Vancouver. Looking forward to staying connected with all.<a href="https://twitter.com/hashtag/AAAI24?src=hash&amp;ref_src=twsrc%5Etfw">#AAAI24</a> <a href="https://twitter.com/hashtag/Vancouver?src=hash&amp;ref_src=twsrc%5Etfw">#Vancouver</a> <a href="https://twitter.com/hashtag/GoogleExploreCSR?src=hash&amp;ref_src=twsrc%5Etfw">#GoogleExploreCSR</a> <a href="https://t.co/wUQUp8XlSM">pic.twitter.com/wUQUp8XlSM</a></p>&mdash; Hanlin CAI (seeking a PhD position 2025) (@lancecai2002) <a href="https://twitter.com/lancecai2002/status/1762210025173344260?ref_src=twsrc%5Etfw">February 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

@@ -11,7 +11,7 @@ title: research
 ## Publication
 
 - Weak Supervision Techniques towards Enhanced ASR Models in Industry-level CRM Systems <br>
-**Zhongsheng Wang***, Sijie Wang, Jia Wang, Yung-I Liang, Yuxi Zhang, Jiamou Liu <br>
+**Zhongsheng Wang***, Sijie Wang*, Jia Wang, Yung-I Liang, Yuxi Zhang, Jiamou Liu <br>
 The International Conference on Neural Information Processing 2024, Auckland, New Zealand <br>
 [[Slides]](/file/Paper/ICONIP2024Slides.pdf)
 

@@ -11,6 +11,8 @@ title: service
 
 ## Award & Grant
 
+- Master's Dissertation with First-class Honour, UoA, 2024
+- University-level scholarship, SWU, 2022
 - University-level scholarship, SWU, 2021
 - University-level scholarship, SWU, 2020
 

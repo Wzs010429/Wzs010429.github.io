@@ -14,4 +14,4 @@ title: misc
 
 ## Hobbies
 
-I love anime and online games (Valorant, Arknights). Recently, I've been developing a new hobby: photography. I just got a new camera (Sony A7C II + Sigma 28-70mm f/2.8). I'll gradually build a photo gallery and share it here!
+I love anime and online games (Valorant, Arknights, Honkai: Star Rail). Recently, I've been developing a new hobby: photography. I just got a new camera (Sony A7C II + Sigma 28-70mm f/2.8). I'll gradually build a photo gallery and share it here!

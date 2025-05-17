@@ -6,7 +6,7 @@ title: service
 
 ## Academic Service
 
-- Conference Reviewer: IJCNN'[24-25], ICONIP'[24-25], ARR Feb 2025
+- Conference Reviewer: IJCNN'[24-25], ICONIP'[24-25], ARR Feb 2025, ACM MM'25
 - Workshop Reviewer: Reasoning and Planning for Large Language Models@ICLR'25
 
 ## Award & Grant

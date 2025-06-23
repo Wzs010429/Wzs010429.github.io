@@ -11,6 +11,10 @@ title: misc
 - AI Scientist (Summer Intern) <br>
 [HouGarden Co., Ltd.](https://nz.hougarden.com/) (Auckland, New Zealand), Nov. 2023 - Feb. 2024
 
+## Visiting
+
+- Algorithms and Logic Group, University of Electronic Science and Technology of China, by Prof. Toru Takisaka, Dec 2024.
+
 
 ## Hobbies
 

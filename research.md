@@ -10,6 +10,11 @@ title: research
 
 ## Publication
 
+- LLM-based Business Process Models Generation from Textual Descriptions <br>
+Xiaoxuan Li, Lin Ni, Xin Wang, Yitong Tang, Ruoxuan Li, Jiamou Liu, **Zhongsheng Wang** <br>
+4th World Conference on Information Systems for Business Management 2025, Bangkok, Thailand
+
+
 - Weak Supervision Techniques towards Enhanced ASR Models in Industry-level CRM Systems <br>
 **Zhongsheng Wang**\*, Sijie Wang\*, Jia Wang, Yung-I Liang, Yuxi Zhang, Jiamou Liu <br>
 The International Conference on Neural Information Processing 2024, Auckland, New Zealand <br>

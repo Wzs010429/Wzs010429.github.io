@@ -18,6 +18,8 @@ title: service
 
 ## TA & GTA
 
+- COMPSCI 761 761 Advanced Topics in Artificial Intelligence by Dr. Anna Trofimova, 25 Semester 2, UoA
+- COMPSCI 367 Artificial Intelligence by Dr. Daniel Wilson and Dr. Qian Liu, 25 Semester 2, UoA
 - COMPSCI 120 Mathematics for Computer Science by Dr. Michelle Zhang, 25 Semester 2, UoA
 - SOFTENG 282 Software Engineering Theory by Dr. Michelle Zhang, and Dr. Gerald Weber, 25 Semester 1, UoA
 - COMPSCI 120 Mathematics for Computer Science by Prof. Simone Linz and Dr. Michelle Zhang, 25 Semester 1, UoA

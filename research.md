@@ -18,7 +18,7 @@ Xiaoxuan Li, Lin Ni, Xin Wang, Yitong Tang, Ruoxuan Li, Jiamou Liu, **Zhongsheng
 - Weak Supervision Techniques towards Enhanced ASR Models in Industry-level CRM Systems <br>
 **Zhongsheng Wang**\*, Sijie Wang\*, Jia Wang, Yung-I Liang, Yuxi Zhang, Jiamou Liu <br>
 The International Conference on Neural Information Processing 2024, Auckland, New Zealand <br>
-[[Slides]](/file/Paper/ICONIP2024Slides.pdf)
+[[PDF]](https://arxiv.org/abs/2507.16843) [[Slides]](/file/Paper/ICONIP2024Slides.pdf)
 
 
 - ChatLogic: Integrating Logic Programming with Large Language Models for Multi-step Reasoning <br> 

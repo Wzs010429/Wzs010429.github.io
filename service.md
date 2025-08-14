@@ -6,7 +6,7 @@ title: service
 
 ## Academic Service
 
-- Conference Reviewer: IJCNN'[24-25], ICONIP'[24-25], ARR [Feb, May] 2025, ACM MM'25, COLM'25,
+- Conference Reviewer: IJCNN'[24-25], ICONIP'[24-25], ARR [Feb, May, July] 2025, ACM MM'25, COLM'25, AAAI'25
 - Workshop Reviewer: Reasoning and Planning for Large Language Models@ICLR'25
 
 ## Award & Grant
@@ -19,7 +19,7 @@ title: service
 ## TA & GTA
 
 - COMPSCI 367 Artificial Intelligence by Dr. Daniel Wilson and Dr. Qian Liu, 25 Semester 2, UoA
-- COMPSCI 225 Mathematics for Computer Science by Dr. Michelle Zhang, 25 Semester 2, UoA
+- COMPSCI 225 Mathematics for Computer Science by Dr. Florian Lehner and Dr. Michelle Zhang, 25 Semester 2, UoA
 - SOFTENG 282 Software Engineering Theory by Dr. Michelle Zhang, and Dr. Gerald Weber, 25 Semester 1, UoA
 - COMPSCI 120 Mathematics for Computer Science by Prof. Simone Linz and Dr. Michelle Zhang, 25 Semester 1, UoA
 - COMPSCI 761 Advanced Topics in Artificial Intelligence by Dr. Anna Trofimova and Dr. Michelle Zhang, 24 Semester 2, UoA

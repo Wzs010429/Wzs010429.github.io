@@ -7,6 +7,7 @@ title: service
 ## Academic Service
 
 - Conference Reviewer: IJCNN'[24-25], ICONIP'[24-25], ARR [Feb, May, July] 2025, ACM MM'25, COLM'25, AAAI'25
+- TJournal Reviewer: IEEE Transactions on Fuzzy Systems Proof
 - Workshop Reviewer: Reasoning and Planning for Large Language Models@ICLR'25
 
 ## Award & Grant

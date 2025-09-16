@@ -8,19 +8,18 @@ layout: page
 
 Here is **Zhongsheng Wang (Spark, 王钟声)**.<br>
 
-I am a PhD Candidate in CS in the School of Computer Science, University of Auckland. My supervisors are Prof. [Jiamou Liu (刘佳谋)](https://profiles.auckland.ac.nz/jiamou-liu) and Dr. [Qian Liu (刘茜)](https://profiles.auckland.ac.nz/liu-qian). My research direction is Trustworthy LLM Agents Based on Dynamic Multimodal Retrieval-Augmented Generation. Before that, I received my undergraduate degree in Computer Science and Technology from the [School of Computer Science and Technology, School of Software](http://cis.swu.edu.cn), Southwest University in 2023 and master degree in Data Science at the [School of Computer Science, University of Auckland](https://www.auckland.ac.nz/en/science/about-the-faculty/school-of-computer-science.html) in 2024. If you are interested in me or have research and communication intentions, feel free to contact me at zhongsheng.wang [at] aucklanduni.ac.nz
+I am a PhD Candidate in CS in the School of Computer Science, University of Auckland. My supervisors are Prof. [Jiamou Liu (刘佳谋)](https://profiles.auckland.ac.nz/jiamou-liu) and Dr. [Qian Liu (刘茜)](https://profiles.auckland.ac.nz/liu-qian). My PhD research topic is Trustworthy LLM Agents Based on Dynamic Multimodal Retrieval-Augmented Generation. Before that, I received my undergraduate degree in Computer Science and Technology from the [School of Computer Science and Technology, School of Software](http://cis.swu.edu.cn), Southwest University in 2023 and master degree in Data Science at the [School of Computer Science, University of Auckland](https://www.auckland.ac.nz/en/science/about-the-faculty/school-of-computer-science.html) in 2024. If you are interested in me or have research and communication intentions, feel free to contact me at zhongsheng.wang [at] aucklanduni.ac.nz
 
 ---
 
 ## Research Interests
 
 - T2I Model (Text to Image)
-- Large Language Model
-- Multimodal RAG
-- Trust-worthy AI Agents
+- Multi-Agent System
+- Multimodal RAG (MRAG)
 - AIGC
 
-My research interests include natural language processing, and I am currently focusing on research on LLM-Based Agents and the practical application of LLMs.  I wish to devote my talent to this meaningful cause and bring well-being to society.
+My research interests include natural language processing, and I am currently focusing on research on LLM-Based Multi-Agent System and the practical application of LLMs. I wish to devote my talent to this meaningful cause and bring well-being to society.
 
 ---
 

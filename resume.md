@@ -10,4 +10,4 @@ title: resume
 
 ## 中文版:
 
-<iframe src="/file/CV_Zhongsheng_Wang_CN.pdf" width="100%" height="1100px"></iframe>
+<iframe src="/file/Zhongsheng_Wang_CV_202509.pdf" width="100%" height="1100px"></iframe>

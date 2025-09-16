@@ -34,6 +34,13 @@ The IEEE World Congress on Computational Intelligence 2024, Yokohama, Japan <br>
 
 ## Preprint
 
+- CLER: Improving Multimodal Financial Reasoning by Cross-MLLM Error Reflection <br>
+Shuangyan Deng, **Zhongsheng Wang**, Rui Mao, Ciprian Doru Giurcaneanu, Jiamou Liu
+
+- CharCom: Composable Identity Control for Multi-Character Story Illustration <br>
+**Zhongsheng Wang**\*, Ming Lin\*, Zhedong Lin, Qian Liu, Jiamou Liu 
+
+
 - CoRA: Optimizing Low-Rank Adaptation with Common Subspace of Large Language Models <br>
 Xiaojun Xiao, Sen Shen, Qiming Bao, Hongfei Rong, Kairui Liu, **Zhongsheng Wang**, Jiamou Liu <br>
 [[PDF]](https://arxiv.org/abs/2409.02119)

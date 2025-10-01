@@ -10,6 +10,11 @@ title: research
 
 ## Publication
 
+- CharCom: Composable Identity Control for Multi-Character Story Illustration <br>
+**Zhongsheng Wang**\*, Ming Lin\*, Zhedong Lin, Qian Liu, Jiamou Liu <br>
+ACM Multimedia Asia 2025, Kuala Lumpur, Malaysia
+
+
 - LLM-based Business Process Models Generation from Textual Descriptions <br>
 Xiaoxuan Li, Lin Ni, Xin Wang, Yitong Tang, Ruoxuan Li, Jiamou Liu, **Zhongsheng Wang** <br>
 4th World Conference on Information Systems for Business Management 2025, Bangkok, Thailand
@@ -37,8 +42,6 @@ The IEEE World Congress on Computational Intelligence 2024, Yokohama, Japan <br>
 - CLER: Improving Multimodal Financial Reasoning by Cross-MLLM Error Reflection <br>
 Shuangyan Deng, **Zhongsheng Wang**, Rui Mao, Ciprian Doru Giurcaneanu, Jiamou Liu
 
-- CharCom: Composable Identity Control for Multi-Character Story Illustration <br>
-**Zhongsheng Wang**\*, Ming Lin\*, Zhedong Lin, Qian Liu, Jiamou Liu 
 
 
 - CoRA: Optimizing Low-Rank Adaptation with Common Subspace of Large Language Models <br>

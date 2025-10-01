@@ -25,6 +25,7 @@ My research interests include natural language processing, and I am currently fo
 
 ## News and Updates
 
+- **2025.10**: &nbsp;🎉 One paper was accepted by ACM Multimedia Asia 2025 (1st author), see you in Malaysia!
 - **2025.03**: &nbsp;🎉 I just accepted my PhD offer and plan to start my PhD studies in April.
 - **2024.12**: &nbsp;📍 Visit UESTC at the invitation of Prof. [Toru Takisaka](https://takisaka.github.io/), and had a small talk about LLM reasoning & model checking. [Website Link](https://tcsuestc.com/people/#visitors)
 - **2024.11**: &nbsp;📍 Second trip to Japan! Attending PAKW 2024 (Kyoto Conference), Osaka, Mt. Fuji, Tokyo…

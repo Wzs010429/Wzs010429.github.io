@@ -12,7 +12,8 @@ title: research
 
 - CharCom: Composable Identity Control for Multi-Character Story Illustration <br>
 **Zhongsheng Wang**\*, Ming Lin\*, Zhedong Lin, Qian Liu, Jiamou Liu <br>
-ACM Multimedia Asia 2025, Kuala Lumpur, Malaysia
+ACM Multimedia Asia 2025, Kuala Lumpur, Malaysia <br>
+[[PDF]](https://arxiv.org/abs/2510.10135) 
 
 
 - LLM-based Business Process Models Generation from Textual Descriptions <br>

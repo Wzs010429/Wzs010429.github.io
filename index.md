@@ -25,7 +25,8 @@ My research interests include natural language processing, and I am currently fo
 
 ## News and Updates
 
-- **2025.10**: &nbsp;🎉 One paper was accepted by IJCNLP-AACL 2025, Thanks to all contributors!
+- **2025.11**: &nbsp;🎉 One paper was accepted by AAAI 2026 (2nd author), my first CCF-A paper. Thanks to all contributors!
+- **2025.10**: &nbsp;🎉 One paper was accepted by IJCNLP-AACL 2025. Thanks to all contributors!
 - **2025.10**: &nbsp;🎉 One paper was accepted by ACM Multimedia Asia 2025 (1st author), see you in Malaysia!
 - **2025.03**: &nbsp;🎉 I just accepted my PhD offer and plan to start my PhD studies in April.
 - **2024.12**: &nbsp;📍 Visit UESTC at the invitation of Prof. [Toru Takisaka](https://takisaka.github.io/), and had a small talk about LLM reasoning & model checking. [Website Link](https://tcsuestc.com/people/#visitors)

@@ -1,0 +1,69 @@
+1:"$Sreact.fragment"
+2:I[3719,["408","static/chunks/408-464634266c54e89f.js","874","static/chunks/874-7c5eb7db8d3a51f7.js","55","static/chunks/55-328b1d72b5e3e498.js","177","static/chunks/app/layout-eaee8c86285e04e2.js"],"ThemeProvider"]
+3:I[768,["408","static/chunks/408-464634266c54e89f.js","874","static/chunks/874-7c5eb7db8d3a51f7.js","55","static/chunks/55-328b1d72b5e3e498.js","177","static/chunks/app/layout-eaee8c86285e04e2.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+6:I[2548,["408","static/chunks/408-464634266c54e89f.js","874","static/chunks/874-7c5eb7db8d3a51f7.js","55","static/chunks/55-328b1d72b5e3e498.js","177","static/chunks/app/layout-eaee8c86285e04e2.js"],"default"]
+8:I[9665,[],"MetadataBoundary"]
+a:I[9665,[],"OutletBoundary"]
+d:I[4911,[],"AsyncMetadataOutlet"]
+f:I[9665,[],"ViewportBoundary"]
+11:I[6614,[],""]
+:HL["/_next/static/css/51bc899147ec0689.css","style"]
+0:{"P":null,"b":"biQj0mbBA_L7cP-6gjPZo","p":"","c":["","cv",""],"i":false,"f":[[["",{"children":[["slug","cv","d"],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/51bc899147ec0689.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/fav.png","type":"image/svg+xml"}],["$","link",null,{"rel":"dns-prefetch","href":"https://google-fonts.jialeliu.com"}],["$","link",null,{"rel":"preconnect","href":"https://google-fonts.jialeliu.com","crossOrigin":""}],["$","link",null,{"rel":"preload","as":"style","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"}],["$","link",null,{"rel":"stylesheet","id":"gfonts-css","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap","media":"print"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function(){\n                var l = document.getElementById('gfonts-css');\n                if (!l) return;\n                if (l.media !== 'all') {\n                  l.addEventListener('load', function(){ try { l.media = 'all'; } catch(e){} });\n                }\n              })();\n            "}}],["$","noscript",null,{"children":["$","link",null,{"rel":"stylesheet","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"}]}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              try {\n                const theme = localStorage.getItem('theme-storage');\n                const parsed = theme ? JSON.parse(theme) : null;\n                const setting = parsed?.state?.theme || 'system';\n                const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;\n                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));\n                var root = document.documentElement;\n                root.classList.add(effective);\n                root.setAttribute('data-theme', effective);\n              } catch (e) {\n                var root = document.documentElement;\n                root.classList.add('light');\n                root.setAttribute('data-theme', 'light');\n              }\n            "}}]]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L2",null,{"children":[["$","$L3",null,{"items":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Publications","type":"page","target":"publications","href":"/publications"},{"title":"Teaching","type":"page","target":"teaching","href":"/teaching"},{"title":"Awards","type":"page","target":"awards","href":"/awards"},{"title":"Services","type":"page","target":"services","href":"/services"},{"title":"CV","type":"page","target":"cv","href":"/cv"}],"siteTitle":"Zhongsheng Wang 王钟声","enableOnePageMode":false}],["$","main",null,{"className":"min-h-screen pt-16 lg:pt-20","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{"lastUpdated":"February 15, 2026"}]]}]}]]}]]}],{"children":[["slug","cv","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","E8AoXyS7pQX92oF7tsYcl",{"children":[["$","$Lf",null,{"children":"$L10"}],null]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
+12:"$Sreact.suspense"
+13:I[4911,[],"AsyncMetadata"]
+15:I[4059,["408","static/chunks/408-464634266c54e89f.js","63","static/chunks/63-0d5ebfce210dba9a.js","486","static/chunks/486-d2ce1eaba6fd711e.js","147","static/chunks/147-9a4bc6658f595514.js","748","static/chunks/748-bce208fe0b98aa28.js","182","static/chunks/app/%5Bslug%5D/page-40b7813e1f862592.js"],"default"]
+9:["$","$12",null,{"fallback":null,"children":["$","$L13",null,{"promise":"$@14"}]}]
+16:T6c2,## Education
+
+**University of Auckland**, PhD in Computer Science, 2025.04 - Present
+
+- Research focus: Consistency and Sontinuity in Text-to-Image Generation
+- Supervisors: Prof. Jiamou Liu and Dr. Qian Liu
+
+**University of Auckland**, MSc in Data Science, 2022.07 - 2024.09
+
+- Research focus: Large Language Model Multi-Step Reasoning
+- Supervisor: Prof. Jiamou Liu
+
+
+**Southwest University**, BSc in Computer Science and Technology, 2019.09 - 2023.06
+
+- Graduated with First Class Honours
+
+
+
+## Experience
+
+
+**AI Engineer** Atom Intelligence Group, Remote 2024.05 - 2024.07
+
+- Develop speech recognition model fine-tuning solution for the retail industry customer management system.
+- Propose a solution for the automated construction of fine-tuning datasets for the retail industry.
+
+
+**AI Scientist (Summer Intern)** HouGarden Co, Ltd., New Zealand 2023.11 - 2024.02
+
+- Design the Issue Management System product, which is used to build a ChatBot Question-Answering dataset for the real estate industry.
+- Complete the fine-tuning of the large model for the English automated translation of the company’s official website and deploy it in practice.
+
+
+## Skills
+- Programming: Python, C++, LaTeX, PyTorch, Next.js 
+- Machine Learning: Representation Learning, Generative Models, LLM-based Agents
+- Data Analysis: Pandas, NumPy, SciPy
+- Research Methods: Empirical Analysis, Benchmark Design, Reproducible Research
+- Languages: Mandarin (Native), English (Fluent)
+
+
+## Awards & Honors
+
+- Best Multimedia Award - ACM MM Asia 2025 (2025)
+- Master's Dissertation in First-Class - University of Auckland (2024)
+- University-level scholarship - Southwest University (2020, 2021, 2022)7:["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":[false,["$","$L15",null,{"config":{"type":"text","title":"CV","source":"cv.md"},"content":"$16","actionLinks":[{"label":"CV (Chinese PDF)","href":"/CV_CN.pdf"},{"label":"CV (English PDF)","href":"/CV_Eng.pdf"}]}],false]}]
+c:null
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+b:null
+14:{"metadata":[["$","title","0",{"children":"CV | Zhongsheng Wang 王钟声"}],["$","meta","1",{"name":"author","content":"Zhongsheng Wang"}],["$","meta","2",{"name":"keywords","content":"Zhongsheng Wang,PhD,Research,University of Auckland"}],["$","meta","3",{"name":"creator","content":"Zhongsheng Wang"}],["$","meta","4",{"name":"publisher","content":"Zhongsheng Wang"}],["$","meta","5",{"property":"og:title","content":"Zhongsheng Wang 王钟声"}],["$","meta","6",{"property":"og:description","content":"Second-year PhD student at University of Auckland."}],["$","meta","7",{"property":"og:site_name","content":"Zhongsheng Wang's Academic Website"}],["$","meta","8",{"property":"og:locale","content":"en_US"}],["$","meta","9",{"property":"og:type","content":"website"}],["$","meta","10",{"name":"twitter:card","content":"summary"}],["$","meta","11",{"name":"twitter:title","content":"Zhongsheng Wang 王钟声"}],["$","meta","12",{"name":"twitter:description","content":"Second-year PhD student at University of Auckland."}],["$","link","13",{"rel":"icon","href":"/fav.png"}]],"error":null,"digest":"$undefined"}
+e:{"metadata":"$14:metadata","error":null,"digest":"$undefined"}

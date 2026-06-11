@@ -1,12 +1,23 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import { useMessages } from '@/lib/i18n/useMessages';
 
 interface AboutProps {
     content: string;
     title?: string;
+}
+
+const linkClassName = "text-accent font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm";
+
+function isInternalLink(href?: string) {
+    return Boolean(href?.startsWith('/') && !href.startsWith('//'));
+}
+
+function isExternalLink(href?: string) {
+    return Boolean(href?.startsWith('http://') || href?.startsWith('https://'));
 }
 
 export default function About({ content, title }: AboutProps) {
@@ -30,14 +41,28 @@ export default function About({ content, title }: AboutProps) {
                         ul: ({ children }) => <ul className="list-disc list-inside mb-4 space-y-1 ml-4">{children}</ul>,
                         ol: ({ children }) => <ol className="list-decimal list-inside mb-4 space-y-1 ml-4">{children}</ol>,
                         li: ({ children }) => <li className="mb-1">{children}</li>,
-                        a: ({ ...props }) => (
-                            <a
-                                {...props}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-accent font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm"
-                            />
-                        ),
+                        a: ({ href, children, ...props }) => {
+                            if (isInternalLink(href)) {
+                                return (
+                                    <Link href={href as string} className={linkClassName} {...props}>
+                                        {children}
+                                    </Link>
+                                );
+                            }
+
+                            const external = isExternalLink(href);
+                            return (
+                                <a
+                                    href={href}
+                                    {...props}
+                                    target={external ? "_blank" : undefined}
+                                    rel={external ? "noopener noreferrer" : undefined}
+                                    className={linkClassName}
+                                >
+                                    {children}
+                                </a>
+                            );
+                        },
                         blockquote: ({ children }) => (
                             <blockquote className="border-l-4 border-accent/50 pl-4 italic my-4 text-neutral-600 dark:text-neutral-500">
                                 {children}

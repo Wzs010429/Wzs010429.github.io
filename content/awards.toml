@@ -3,6 +3,12 @@ title = "Awards"
 description = "Honors and awards I have received."
 
 [[items]]
+title = "Best Paper Nominee"
+subtitle = "AAMAS 2026"
+date = "2026"
+content = "NA"
+
+[[items]]
 title = "Best Multimedia Award"
 subtitle = "ACM MM Asia 2025"
 date = "2025"

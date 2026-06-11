@@ -22,6 +22,7 @@ export interface LocaleMessages {
     send: string;
     sendEmail: string;
     researchInterests: string;
+    hobbies: string;
     like: string;
     liked: string;
     thanks: string;
@@ -72,6 +73,7 @@ const en: LocaleMessages = {
     send: 'Send',
     sendEmail: 'Send Email',
     researchInterests: 'Research Interests',
+    hobbies: 'Hobbies',
     like: 'Like',
     liked: 'Liked',
     thanks: 'Thanks!',
@@ -122,6 +124,7 @@ const zh: LocaleMessages = {
     send: '发送',
     sendEmail: '发送邮件',
     researchInterests: '研究兴趣',
+    hobbies: '兴趣爱好',
     like: '点赞',
     liked: '已点赞',
     thanks: '感谢支持！',

@@ -157,7 +157,7 @@ export default function Profile({ author, social, features, researchInterests, h
             </div>
 
             {/* Contact Links */}
-            <div className="flex flex-wrap justify-center gap-3 sm:gap-4 mb-6 relative px-2">
+            <div className="flex flex-nowrap justify-center gap-2 sm:gap-3 mb-6 relative">
                 {socialLinks.map((link) => {
                     const IconComponent = link.icon;
                     if (link.isLocation) {
@@ -174,7 +174,7 @@ export default function Profile({ author, social, features, researchInterests, h
                                         setShowAddress(!isAddressPinned);
                                         setLastClickedTooltip('address');
                                     }}
-                                    className={`p-2 sm:p-2 transition-colors duration-200 ${isAddressPinned
+                                    className={`p-1.5 sm:p-2 transition-colors duration-200 ${isAddressPinned
                                         ? 'text-accent'
                                         : 'text-neutral-600 dark:text-neutral-400 hover:text-accent'
                                         }`}
@@ -251,7 +251,7 @@ export default function Profile({ author, social, features, researchInterests, h
                                         setShowEmail(!isEmailPinned);
                                         setLastClickedTooltip('email');
                                     }}
-                                    className={`p-2 sm:p-2 transition-colors duration-200 ${isEmailPinned
+                                    className={`p-1.5 sm:p-2 transition-colors duration-200 ${isEmailPinned
                                         ? 'text-accent'
                                         : 'text-neutral-600 dark:text-neutral-400 hover:text-accent'
                                         }`}
@@ -314,7 +314,7 @@ export default function Profile({ author, social, features, researchInterests, h
                             href={link.href}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="p-2 sm:p-2 text-neutral-600 dark:text-neutral-400 hover:text-accent transition-colors duration-200"
+                            className="p-1.5 sm:p-2 text-neutral-600 dark:text-neutral-400 hover:text-accent transition-colors duration-200"
                             aria-label={link.name}
                         >
                             <IconComponent className="h-5 w-5" />
@@ -337,7 +337,7 @@ export default function Profile({ author, social, features, researchInterests, h
 
             {hobbies && hobbies.length > 0 && (
                 <div className="bg-neutral-100 dark:bg-neutral-800 rounded-lg p-4 mb-6 hover:shadow-lg transition-all duration-200 hover:scale-[1.02]">
-                    <h3 className="font-semibold text-primary mb-3">Hobbies</h3>
+                    <h3 className="font-semibold text-primary mb-3">{messages.profile.hobbies}</h3>
                     <div className="space-y-2 text-sm text-neutral-700 dark:text-neutral-500">
                         {hobbies.map((hobby, index) => (
                             <div key={index}>{hobby}</div>

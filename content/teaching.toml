@@ -1,0 +1,59 @@
+type = "card"
+title = "Teaching"
+description = "Courses I have taught or assisted with."
+
+[[items]]
+title = "COMPSCI 767 Intelligent Software Agents"
+subtitle = "Graduate Teaching Assistant"
+date = "2026 Semester 1"
+content = "Taught by A/Prof. Jiamou Liu and Dr. Hong Jia."
+tags = ["Postgraduate", "CS"]
+
+[[items]]
+title = "COMPSCI 713 AI Fundamentals"
+subtitle = "Graduate Teaching Assistant"
+date = "2026 Semester 1"
+content = "Taught by Dr. Thomas Lacombe and Dr. Xinyu Zhang."
+tags = ["Postgraduate", "CS"]
+
+[[items]]
+title = "COMPSCI 367 Artificial Intelligence"
+subtitle = "Graduate Teaching Assistant"
+date = "2025 Semester 2"
+content = "Taught by Dr. Daniel Wilson and Dr. Qian Liu."
+tags = ["Undergraduate", "CS"]
+
+[[items]]
+title = "COMPSCI 225 Mathematics for Computer Science"
+subtitle = "Graduate Teaching Assistant"
+date = "2025 Semester 2"
+content = "Taught by Dr. Florian Lehner and Dr. Michelle Zhang."
+tags = ["Undergraduate", "CS", "MATH"]
+
+[[items]]
+title = "SOFTENG 282 Software Engineering Theory"
+subtitle = "Graduate Teaching Assistant"
+date = "2025 Semester 1"
+content = "Taught by Dr. Michelle Zhang and Dr. Gerald Weber."
+tags = ["Undergraduate", "SOFTENG", "CS"]
+
+[[items]]
+title = "COMPSCI 120 Mathematics for Computer Science"
+subtitle = "Graduate Teaching Assistant"
+date = "2025 Semester 1"
+content = "Taught by Prof. Simone Linz and Dr. Michelle Zhang."
+tags = ["Undergraduate", "CS", "MATH"]
+
+[[items]]
+title = "COMPSCI 761 Advanced Topics in Artificial Intelligence"
+subtitle = "Graduate Teaching Assistant"
+date = "2024 Semester 2"
+content = "Taught by Dr. Anna Trofimova and Dr. Michelle Zhang."
+tags = ["Postgraduate", "CS"]
+
+[[items]]
+title = "COMPSCI 367 Artificial Intelligence"
+subtitle = "Teaching Assistant"
+date = "2023 Semester 2"
+content = "Taught by Dr. Anna Trofimova, Prof. Jiamou Liu and Dr. Daniel Wilson."
+tags = ["Undergraduate", "CS"]

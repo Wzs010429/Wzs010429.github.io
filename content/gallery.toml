@@ -1,0 +1,12 @@
+[[albums]]
+slug = "Singapore"
+title = "Singapore"
+description = "Photos from Singapore."
+cover = "/post/gallery/Singapore/IMG_20260125_144103.webp"
+date = "2026-01"
+images = [
+  "/post/gallery/Singapore/IMG_20260125_144103.webp",
+  "/post/gallery/Singapore/MVIMG_20260124_210155-jpg.webp",
+  "/post/gallery/Singapore/MVIMG_20260123_204524-jpg.webp",
+  "/post/gallery/Singapore/mmexport1769161373589.webp",
+]

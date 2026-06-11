@@ -1,0 +1,4 @@
+type = "text"
+title = "News"
+description = "All news updates."
+source = "news.md"

@@ -1,0 +1,21 @@
+type = "card"
+title = "Awards"
+description = "Honors and awards I have received."
+
+[[items]]
+title = "Best Multimedia Award"
+subtitle = "ACM MM Asia 2025"
+date = "2025"
+content = "NA"
+
+[[items]]
+title = "Master's Dissertation in First-Class"
+subtitle = "University of Auckland"
+date = "2024"
+content = "NA"
+
+[[items]]
+title = "University-level scholarship"
+subtitle = "Southwest University"
+date = "2020, 2021, 2022"
+content = "NA"

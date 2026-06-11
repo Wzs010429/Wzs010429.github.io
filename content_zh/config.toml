@@ -1,0 +1,45 @@
+[site]
+title = "Zhongsheng Wang 王钟声"
+description = "奥克兰大学计算机科学二年级博士研究生。"
+last_updated = "2026 年 2 月 15 日"
+
+[author]
+name = "Zhongsheng Wang 王钟声"
+title = "博士研究生"
+institution = "奥克兰大学"
+
+[[navigation]]
+title = "关于"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "论文"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "教学"
+type = "page"
+target = "teaching"
+href = "/teaching"
+
+[[navigation]]
+title = "获奖"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "服务"
+type = "page"
+target = "services"
+href = "/services"
+
+[[navigation]]
+title = "简历"
+type = "page"
+target = "cv"
+href = "/cv"

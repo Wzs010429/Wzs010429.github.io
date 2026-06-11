@@ -1,0 +1,28 @@
+type = "about"
+title = "About"
+
+[profile]
+research_interests = ["MLLM", "AIGC", "Self-Evolving AI Agent", "Multi-agent System"]
+hobbies = ["Photography", "Delicacy", "Online games: Arknights, Valorant"]
+
+[[sections]]
+id = "about"
+type = "markdown"
+title = "About"
+source = "bio.md"
+
+[[sections]]
+id = "featured_publications"
+type = "publications"
+title = "Selected Publications"
+source = "publications.bib"
+filter = "selected"
+limit = 3
+
+[[sections]]
+id = "news"
+type = "list"
+title = "News"
+source = "news.toml"
+limit = 6
+view_all_href = "/news"

@@ -1,0 +1,16 @@
+- **2026-04** 🎉 I just finished my oral presentation in provisional year review. Formally become a PhD candidate!
+- **2026-01** 🎉 One paper was accepted by Artificial Intelligence Review (2nd author), thanks to all contributors!
+- **2025-12** 🎉 Our paper presented in ACM Multimedia Aisa has won the Best Multimedia Award!
+- **2025-12** 🎉 One paper was accepted by AAMAS 2026 (co-1st author), thanks to all contributors!
+- **2025-10** 🎉 One paper was accepted by IJCNLP-AACL 2025, thanks to all contributors!
+- **2025-10** 🎉 One paper was accepted by ACM Multimedia Asia 2025 (1st author), see you in Malaysia!
+- **2025-03** 🎉 I just accepted my PhD offer and plan to start my PhD studies in April.
+- **2024-12** 📍 Visit UESTC at the invitation of Prof. Toru Takisaka, and had a small talk about LLM reasoning & model checking.
+- **2024-11** 📍 Second trip to Japan! Attending PAKW 2024 (Kyoto Conference), Osaka, Mt. Fuji, Tokyo…
+- **2024-09** 🤗 Obtain the Master's degree in Data Science from the School of Computer Science at the University of Auckland!
+- **2024-08** 🎉 One paper was accepted by ICONIP 2024, see u guys in Auckland this December!
+- **2024-08** 📍 PC Member for ICONIP 2024.
+- **2024-07** 🤗 Go to Yokohama, Japan to attend WCCI 2024 and present the paper on-site. Looking forward to meeting you guys!
+- **2024-05** 📍 As a local volunteer at AAMAS 2024 (New Zealand), looking forward to meeting more people and new inspirations.
+- **2024-03** 🎉 Two papers were accepted by WCCI 2024 (1st and 3rd author), the first time I published in the real sense.
+- **2023-12** 🎉 One paper was accepted by AAAI 2024 NucLeaR Workshop, which is the starting point of my scientific research career!

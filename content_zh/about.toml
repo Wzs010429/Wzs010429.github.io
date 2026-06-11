@@ -1,0 +1,28 @@
+type = "about"
+title = "关于"
+
+[profile]
+research_interests = ["MLLM", "AIGC", "自进化 AI Agent", "多智能体系统"]
+hobbies = ["摄影", "美食", "网络游戏：明日方舟、Valorant"]
+
+[[sections]]
+id = "about"
+type = "markdown"
+title = "关于"
+source = "bio.md"
+
+[[sections]]
+id = "featured_publications"
+type = "publications"
+title = "精选论文"
+source = "publications.bib"
+filter = "selected"
+limit = 3
+
+[[sections]]
+id = "news"
+type = "list"
+title = "动态"
+source = "news.toml"
+limit = 6
+view_all_href = "/news"

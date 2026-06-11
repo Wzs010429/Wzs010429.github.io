@@ -1,0 +1,11 @@
+type = "text"
+title = "CV"
+source = "cv.md"
+
+[[action_links]]
+label = "CV (Chinese PDF)"
+href = "/CV_CN.pdf"
+
+[[action_links]]
+label = "CV (English PDF)"
+href = "/CV_Eng.pdf"

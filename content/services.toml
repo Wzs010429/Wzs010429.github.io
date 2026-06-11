@@ -1,0 +1,39 @@
+type = "card"
+title = "Services"
+description = "Professional services and community involvement."
+
+[[items]]
+title = "Conference Reviewer"
+subtitle = "ACL Rolling Review"
+date = "2026 January"
+content = "NA"
+
+[[items]]
+title = "Conference Reviewer"
+subtitle = "AAAI, ACM MM, COLM, IJCNN, ICONIP"
+date = "2025"
+content = "NA"
+
+[[items]]
+title = "Conference Reviewer"
+subtitle = "ACL Rolling Review"
+date = "2025 May, July, October"
+content = "NA"
+
+[[items]]
+title = "Conference Reviewer"
+subtitle = "IJCNN, ICONIP"
+date = "2024"
+content = "NA"
+
+[[items]]
+title = "Journal Reviewer"
+subtitle = "IEEE Transactions on Fuzzy Systems (Proof)"
+date = "2025"
+content = "NA"
+
+[[items]]
+title = "Workshop Reviewer"
+subtitle = "Reasoning and Planning for Large Language Models @ ICLR 2025"
+date = "2025"
+content = "NA"

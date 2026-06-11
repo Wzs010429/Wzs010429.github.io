@@ -1,0 +1,78 @@
+[site]
+title = "Zhongsheng Wang 王钟声"
+description = "Second-year PhD student at University of Auckland."
+favicon = "/fav.png"
+last_updated = "February 15, 2026"
+
+[author]
+name = "Zhongsheng Wang"
+title = "PhD Student"
+institution = "University of Auckland"
+avatar = "/zhongsheng.jpg"
+
+[social]
+email = "jkwzs0429@gmail.com"
+location = "Auckland, New Zealand"
+location_url = "https://maps.app.goo.gl/Zj8A8gkgmZ5Zrphr9"
+location_details = [
+  "Building 903",
+  "314-390 Khyber Pass Road, Newmarket, Auckland 1023, New Zealand",
+]
+google_scholar = "https://scholar.google.com/citations?user=JfrMQhsAAAAJ&hl=zh-CN&authuser=1"
+orcid = "https://orcid.org/0009-0003-4235-7710"
+github = "https://github.com/Wzs010429"
+linkedin = "https://www.linkedin.com/in/zhongsheng-wang-095804278/"
+bilibili = "https://space.bilibili.com/22035617?spm_id_from=333.1007.0.0"
+
+[features]
+enable_likes = true
+enable_one_page_mode = false
+
+[i18n]
+enabled = true
+locales = ["en", "zh"]
+default_locale = "en"
+mode = "fixed"
+fixed_locale = "en"
+persist = true
+switcher = true
+
+[i18n.labels]
+en = "English"
+zh = "中文"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Teaching"
+type = "page"
+target = "teaching"
+href = "/teaching"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "Services"
+type = "page"
+target = "services"
+href = "/services"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"

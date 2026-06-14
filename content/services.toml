@@ -1,22 +1,6 @@
 type = "card"
 title = "Services"
-description = "Teaching and academic reviewing service."
-
-[[sections]]
-title = "Teaching"
-description = "Guest lectures and course-related service."
-
-[[sections.items]]
-title = "UoA COMPSCI 714 - AI Architecture and Design"
-subtitle = "Guest Lecture"
-date = "2026"
-content = "Topic: Text-to-Image Diffusion Models: Limits and Control"
-
-[[sections.items]]
-title = "UoA COMPSCI 713 - AI Fundamentals"
-subtitle = "Guest Lecture"
-date = "2026"
-content = "Topic: Reinforcement Learning for LLMs: From Post-Training to Skills and Agentic Systems"
+description = "Academic reviewing service."
 
 [[sections]]
 title = "Conference and Peer Review"

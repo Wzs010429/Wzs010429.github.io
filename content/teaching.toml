@@ -1,6 +1,22 @@
 type = "card"
 title = "Teaching"
-description = "Courses I have taught or assisted with."
+description = "Guest lectures and courses I have taught or assisted with."
+
+[[sections]]
+title = "Guest Lectures"
+description = "Invited course lectures at the University of Auckland."
+
+[[sections.items]]
+title = "UoA COMPSCI 714 - AI Architecture and Design"
+subtitle = "Guest Lecture"
+date = "2026"
+content = "Topic: Text-to-Image Diffusion Models: Limits and Control"
+
+[[sections.items]]
+title = "UoA COMPSCI 713 - AI Fundamentals"
+subtitle = "Guest Lecture"
+date = "2026"
+content = "Topic: Reinforcement Learning for LLMs: From Post-Training to Skills and Agentic Systems"
 
 [[sections]]
 title = "Teaching Assistantships"

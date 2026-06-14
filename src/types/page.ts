@@ -36,6 +36,5 @@ export interface CardSection {
 
 export interface CardPageConfig extends BasePageConfig {
     type: 'card';
-    items?: CardItem[];
-    sections?: CardSection[];
+    sections: CardSection[];
 }

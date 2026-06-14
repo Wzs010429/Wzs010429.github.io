@@ -2,26 +2,26 @@ type = "card"
 title = "Awards"
 description = "Honors and awards I have received."
 
-[[items]]
+[[sections]]
+title = "Honors"
+description = "Academic awards and recognitions."
+
+[[sections.items]]
 title = "Best Paper Nominee"
 subtitle = "AAMAS 2026"
 date = "2026"
-content = "NA"
 
-[[items]]
+[[sections.items]]
 title = "Best Multimedia Award"
 subtitle = "ACM MM Asia 2025"
 date = "2025"
-content = "NA"
 
-[[items]]
+[[sections.items]]
 title = "Master's Dissertation in First-Class"
 subtitle = "University of Auckland"
 date = "2024"
-content = "NA"
 
-[[items]]
+[[sections.items]]
 title = "University-level scholarship"
 subtitle = "Southwest University"
 date = "2020, 2021, 2022"
-content = "NA"

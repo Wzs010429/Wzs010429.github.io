@@ -1,9 +1,7 @@
 ---
-title: "Hello Note"
-date: "2026-02-15"
-summary: "A short placeholder note for the rebuilt source version of this site."
+title: "CS 336 Notes Lec 01"
+date: "2026-06-15"
+summary: "Notes for Stanford CS 336: Large Language Models from Scratch"
 ---
 
-This note page is kept to preserve the existing `/post/note/hello-note/` route.
-
-You can edit or replace it in `content/notes/hello-note.md`.
+# Lec 01

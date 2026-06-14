@@ -1,5 +1,6 @@
 'use client';
 
+import { motion, AnimatePresence } from 'framer-motion';
 import Profile from '@/components/home/Profile';
 import About from '@/components/home/About';
 import SelectedPublications from '@/components/home/SelectedPublications';
@@ -57,78 +58,87 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-background min-h-screen">
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-        <div className="lg:col-span-1">
-          <Profile
-            author={data.author}
-            social={data.social}
-            features={data.features}
-            researchInterests={data.researchInterests}
-            hobbies={data.hobbies}
-          />
-        </div>
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={locale}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -10 }}
+          transition={{ duration: 0.28, ease: 'easeOut' }}
+          className="grid grid-cols-1 lg:grid-cols-3 gap-12"
+        >
+          <div className="lg:col-span-1">
+            <Profile
+              author={data.author}
+              social={data.social}
+              features={data.features}
+              researchInterests={data.researchInterests}
+              hobbies={data.hobbies}
+            />
+          </div>
 
-        <div className="lg:col-span-2 space-y-8">
-          {data.pagesToShow.map((page) => (
-            <section key={page.id} id={page.id} className="scroll-mt-24 space-y-8">
-              {page.type === 'about' && page.sections.map((section: SectionConfig) => {
-                switch (section.type) {
-                  case 'markdown':
-                    return (
-                      <About
-                        key={section.id}
-                        content={section.content || ''}
-                        title={section.title}
-                      />
-                    );
-                  case 'publications':
-                    return (
-                      <SelectedPublications
-                        key={section.id}
-                        publications={section.publications || []}
-                        title={section.title}
-                        enableOnePageMode={data.enableOnePageMode}
-                      />
-                    );
-                  case 'list':
-                    return (
-                      <News
-                        key={section.id}
-                        items={section.items || []}
-                        title={section.title}
-                        limit={section.limit}
-                        showViewAll={Boolean(section.view_all_href)}
-                        viewAllHref={section.view_all_href}
-                      />
-                    );
-                  default:
-                    return null;
-                }
-              })}
-              {page.type === 'publication' && (
-                <PublicationsList
-                  config={page.config}
-                  publications={page.publications}
-                  embedded={true}
-                />
-              )}
-              {page.type === 'text' && (
-                <TextPage
-                  config={page.config}
-                  content={page.content}
-                  embedded={true}
-                />
-              )}
-              {page.type === 'card' && (
-                <CardPage
-                  config={page.config}
-                  embedded={true}
-                />
-              )}
-            </section>
-          ))}
-        </div>
-      </div>
+          <div className="lg:col-span-2 space-y-8">
+            {data.pagesToShow.map((page) => (
+              <section key={page.id} id={page.id} className="scroll-mt-24 space-y-8">
+                {page.type === 'about' && page.sections.map((section: SectionConfig) => {
+                  switch (section.type) {
+                    case 'markdown':
+                      return (
+                        <About
+                          key={section.id}
+                          content={section.content || ''}
+                          title={section.title}
+                        />
+                      );
+                    case 'publications':
+                      return (
+                        <SelectedPublications
+                          key={section.id}
+                          publications={section.publications || []}
+                          title={section.title}
+                          enableOnePageMode={data.enableOnePageMode}
+                        />
+                      );
+                    case 'list':
+                      return (
+                        <News
+                          key={section.id}
+                          items={section.items || []}
+                          title={section.title}
+                          limit={section.limit}
+                          showViewAll={Boolean(section.view_all_href)}
+                          viewAllHref={section.view_all_href}
+                        />
+                      );
+                    default:
+                      return null;
+                  }
+                })}
+                {page.type === 'publication' && (
+                  <PublicationsList
+                    config={page.config}
+                    publications={page.publications}
+                    embedded={true}
+                  />
+                )}
+                {page.type === 'text' && (
+                  <TextPage
+                    config={page.config}
+                    content={page.content}
+                    embedded={true}
+                  />
+                )}
+                {page.type === 'card' && (
+                  <CardPage
+                    config={page.config}
+                    embedded={true}
+                  />
+                )}
+              </section>
+            ))}
+          </div>
+        </motion.div>
+      </AnimatePresence>
     </div>
   );
 }

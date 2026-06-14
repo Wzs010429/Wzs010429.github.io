@@ -1,5 +1,6 @@
 'use client';
 
+import { motion, AnimatePresence } from 'framer-motion';
 import PublicationsList from '@/components/publications/PublicationsList';
 import TextPage from '@/components/pages/TextPage';
 import CardPage from '@/components/pages/CardPage';
@@ -32,15 +33,25 @@ export default function DynamicPageClient({ dataByLocale, defaultLocale }: Dynam
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      {pageData.type === 'publication' && (
-        <PublicationsList config={pageData.config} publications={pageData.publications} />
-      )}
-      {pageData.type === 'text' && (
-        <TextPage config={pageData.config} content={pageData.content} />
-      )}
-      {pageData.type === 'card' && (
-        <CardPage config={pageData.config} />
-      )}
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={locale}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -10 }}
+          transition={{ duration: 0.28, ease: 'easeOut' }}
+        >
+          {pageData.type === 'publication' && (
+            <PublicationsList config={pageData.config} publications={pageData.publications} />
+          )}
+          {pageData.type === 'text' && (
+            <TextPage config={pageData.config} content={pageData.content} />
+          )}
+          {pageData.type === 'card' && (
+            <CardPage config={pageData.config} />
+          )}
+        </motion.div>
+      </AnimatePresence>
     </div>
   );
 }

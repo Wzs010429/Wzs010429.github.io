@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { LanguageIcon, ChevronDownIcon } from '@heroicons/react/24/outline';
 import { cn } from '@/lib/utils';
 import { useLocaleStore } from '@/lib/stores/localeStore';
@@ -57,41 +57,43 @@ export default function LanguageToggle({ i18n }: LanguageToggleProps) {
         <ChevronDownIcon className="h-3.5 w-3.5" />
       </motion.button>
 
-      {isOpen && (
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95, y: -10 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
-          exit={{ opacity: 0, scale: 0.95, y: -10 }}
-          className={cn(
-            'absolute right-0 mt-2 w-36 rounded-lg shadow-lg border',
-            'bg-background border-neutral-200 dark:border-[rgba(148,163,184,0.24)]',
-            'dark:bg-neutral-800 z-50'
-          )}
-        >
-          <div className="py-1">
-            {i18n.locales.map((localeOption) => (
-              <button
-                key={localeOption}
-                onClick={() => {
-                  setLocale(localeOption);
-                  setIsOpen(false);
-                }}
-                className={cn(
-                  'flex items-center justify-between w-full px-3 py-2 text-sm',
-                  'hover:bg-neutral-50 dark:hover:bg-neutral-700',
-                  'transition-colors duration-200',
-                  currentLocale === localeOption
-                    ? 'text-accent bg-accent/10'
-                    : 'text-neutral-700 dark:text-neutral-300'
-                )}
-              >
-                <span>{i18n.labels[localeOption] || localeOption}</span>
-                <span className="text-xs opacity-70">{localeOption.toUpperCase()}</span>
-              </button>
-            ))}
-          </div>
-        </motion.div>
-      )}
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95, y: -10 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            exit={{ opacity: 0, scale: 0.95, y: -10 }}
+            className={cn(
+              'absolute right-0 mt-2 w-36 rounded-lg shadow-lg border',
+              'bg-background border-neutral-200 dark:border-[rgba(148,163,184,0.24)]',
+              'dark:bg-neutral-800 z-50'
+            )}
+          >
+            <div className="py-1">
+              {i18n.locales.map((localeOption) => (
+                <button
+                  key={localeOption}
+                  onClick={() => {
+                    setLocale(localeOption);
+                    setIsOpen(false);
+                  }}
+                  className={cn(
+                    'flex items-center justify-between w-full px-3 py-2 text-sm',
+                    'hover:bg-neutral-50 dark:hover:bg-neutral-700',
+                    'transition-colors duration-200',
+                    currentLocale === localeOption
+                      ? 'text-accent bg-accent/10'
+                      : 'text-neutral-700 dark:text-neutral-300'
+                  )}
+                >
+                  <span>{i18n.labels[localeOption] || localeOption}</span>
+                  <span className="text-xs opacity-70">{localeOption.toUpperCase()}</span>
+                </button>
+              ))}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {isOpen && (
         <div

@@ -20,7 +20,8 @@ export interface GalleryAlbum {
 }
 
 const CONTENT_DIR = path.join(process.cwd(), 'content');
-const POSTS_DIR = path.join(CONTENT_DIR, 'posts');
+const NOTES_DIR = path.join(CONTENT_DIR, 'notes');
+const LEGACY_POSTS_DIR = path.join(CONTENT_DIR, 'posts');
 
 function parseFrontmatter(raw: string): { data: Record<string, string>; content: string } {
   if (!raw.startsWith('---')) {
@@ -47,22 +48,31 @@ function parseFrontmatter(raw: string): { data: Record<string, string>; content:
 }
 
 export function getNotes(): NotePost[] {
-  if (!fs.existsSync(POSTS_DIR)) return [];
+  const notesBySlug = new Map<string, NotePost>();
+  const noteDirs = [NOTES_DIR, LEGACY_POSTS_DIR];
 
-  return fs.readdirSync(POSTS_DIR)
-    .filter((name) => name.endsWith('.md'))
-    .map((name) => {
-      const slug = name.replace(/\.md$/, '');
-      const raw = fs.readFileSync(path.join(POSTS_DIR, name), 'utf-8');
-      const { data, content } = parseFrontmatter(raw);
-      return {
-        slug,
-        title: data.title || slug,
-        date: data.date,
-        summary: data.summary,
-        content,
-      };
-    })
+  for (const noteDir of noteDirs) {
+    if (!fs.existsSync(noteDir)) continue;
+
+    fs.readdirSync(noteDir)
+      .filter((name) => name.endsWith('.md') && !name.startsWith('_'))
+      .forEach((name) => {
+        const slug = name.replace(/\.md$/, '');
+        if (notesBySlug.has(slug)) return;
+
+        const raw = fs.readFileSync(path.join(noteDir, name), 'utf-8');
+        const { data, content } = parseFrontmatter(raw);
+        notesBySlug.set(slug, {
+          slug,
+          title: data.title || slug,
+          date: data.date,
+          summary: data.summary,
+          content,
+        });
+      });
+  }
+
+  return Array.from(notesBySlug.values())
     .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 }
 

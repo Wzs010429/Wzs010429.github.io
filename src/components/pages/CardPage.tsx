@@ -30,6 +30,9 @@ const markdownComponents = {
 };
 
 export default function CardPage({ config, embedded = false }: { config: CardPageConfig; embedded?: boolean }) {
+    const sectionedItems = config.sections?.filter(section => section.items?.length) || [];
+    const hasSections = sectionedItems.length > 0;
+
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -47,45 +50,116 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
                 )}
             </div>
 
-            <div className={`grid ${embedded ? "gap-4" : "gap-6"}`}>
-                {config.items.map((item, index) => (
-                    <motion.div
-                        key={index}
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.4, delay: 0.1 * index }}
-                        className={`bg-white dark:bg-neutral-900 ${embedded ? "p-4" : "p-6"} rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-800 hover:shadow-lg transition-all duration-200 hover:scale-[1.01]`}
-                    >
-                        <div className="flex justify-between items-start mb-2">
-                            <h3 className={`${embedded ? "text-lg" : "text-xl"} font-semibold text-primary`}>{item.title}</h3>
-                            {item.date && (
-                                <span className="text-sm text-neutral-500 font-medium bg-neutral-100 dark:bg-neutral-800 px-2 py-1 rounded">
-                                    {item.date}
-                                </span>
-                            )}
-                        </div>
-                        {item.subtitle && (
-                            <p className={`${embedded ? "text-sm" : "text-base"} text-accent font-medium mb-3`}>{item.subtitle}</p>
-                        )}
-                        {item.content && (
-                            <div className={`${embedded ? "text-sm" : "text-base"} text-neutral-600 dark:text-neutral-500 leading-relaxed`}>
-                                <ReactMarkdown components={markdownComponents}>
-                                    {item.content}
-                                </ReactMarkdown>
+            {hasSections ? (
+                <div className={embedded ? "space-y-6" : "space-y-8"}>
+                    {sectionedItems.map((section, sectionIndex) => (
+                        <motion.section
+                            key={section.title}
+                            initial={{ opacity: 0, y: 16 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.4, delay: 0.12 * sectionIndex }}
+                            className={embedded ? "space-y-3" : "space-y-4"}
+                        >
+                            <div>
+                                <h2 className={`${embedded ? "text-xl" : "text-2xl"} font-serif font-bold text-primary`}>
+                                    {section.title}
+                                </h2>
+                                {section.description && (
+                                    <p className={`${embedded ? "text-sm" : "text-base"} mt-1 text-neutral-600 dark:text-neutral-500`}>
+                                        {section.description}
+                                    </p>
+                                )}
                             </div>
-                        )}
-                        {item.tags && (
-                            <div className="flex flex-wrap gap-2 mt-4">
-                                {item.tags.map(tag => (
-                                    <span key={tag} className="text-xs text-neutral-500 bg-neutral-50 dark:bg-neutral-800/50 px-2 py-1 rounded border border-neutral-100 dark:border-neutral-800">
-                                        {tag}
-                                    </span>
+
+                            <div className="border-y border-neutral-200 dark:border-neutral-800 divide-y divide-neutral-200 dark:divide-neutral-800">
+                                {section.items.map((item, itemIndex) => (
+                                    <motion.div
+                                        key={`${section.title}-${item.title}-${itemIndex}`}
+                                        initial={{ opacity: 0, y: 12 }}
+                                        animate={{ opacity: 1, y: 0 }}
+                                        transition={{ duration: 0.3, delay: 0.06 * itemIndex }}
+                                        className={`${embedded ? "py-3" : "py-4"} grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-start`}
+                                    >
+                                        <div className="min-w-0">
+                                            <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:gap-3">
+                                                <h3 className={`${embedded ? "text-base" : "text-lg"} font-semibold text-primary leading-snug break-words`}>
+                                                    {item.title}
+                                                </h3>
+                                                {item.subtitle && (
+                                                    <p className={`${embedded ? "text-sm" : "text-base"} text-accent font-medium leading-snug`}>
+                                                        {item.subtitle}
+                                                    </p>
+                                                )}
+                                            </div>
+                                            {item.content && (
+                                                <div className={`${embedded ? "text-sm" : "text-base"} mt-2 text-neutral-600 dark:text-neutral-500 leading-relaxed`}>
+                                                    <ReactMarkdown components={markdownComponents}>
+                                                        {item.content}
+                                                    </ReactMarkdown>
+                                                </div>
+                                            )}
+                                            {item.tags && (
+                                                <div className="flex flex-wrap gap-2 mt-3">
+                                                    {item.tags.map(tag => (
+                                                        <span key={tag} className="text-xs text-neutral-500 bg-neutral-50 dark:bg-neutral-800/50 px-2 py-1 rounded border border-neutral-100 dark:border-neutral-800">
+                                                            {tag}
+                                                        </span>
+                                                    ))}
+                                                </div>
+                                            )}
+                                        </div>
+                                        {item.date && (
+                                            <span className="text-sm text-neutral-500 font-medium bg-neutral-100 dark:bg-neutral-800 px-2 py-1 rounded justify-self-start sm:justify-self-end whitespace-nowrap">
+                                                {item.date}
+                                            </span>
+                                        )}
+                                    </motion.div>
                                 ))}
                             </div>
-                        )}
-                    </motion.div>
-                ))}
-            </div>
+                        </motion.section>
+                    ))}
+                </div>
+            ) : (
+                <div className={`grid ${embedded ? "gap-4" : "gap-6"}`}>
+                    {(config.items || []).map((item, index) => (
+                        <motion.div
+                            key={index}
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.4, delay: 0.1 * index }}
+                            className={`bg-white dark:bg-neutral-900 ${embedded ? "p-4" : "p-6"} rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-800 hover:shadow-lg transition-all duration-200 hover:scale-[1.01]`}
+                        >
+                            <div className="flex justify-between items-start mb-2">
+                                <h3 className={`${embedded ? "text-lg" : "text-xl"} font-semibold text-primary`}>{item.title}</h3>
+                                {item.date && (
+                                    <span className="text-sm text-neutral-500 font-medium bg-neutral-100 dark:bg-neutral-800 px-2 py-1 rounded">
+                                        {item.date}
+                                    </span>
+                                )}
+                            </div>
+                            {item.subtitle && (
+                                <p className={`${embedded ? "text-sm" : "text-base"} text-accent font-medium mb-3`}>{item.subtitle}</p>
+                            )}
+                            {item.content && (
+                                <div className={`${embedded ? "text-sm" : "text-base"} text-neutral-600 dark:text-neutral-500 leading-relaxed`}>
+                                    <ReactMarkdown components={markdownComponents}>
+                                        {item.content}
+                                    </ReactMarkdown>
+                                </div>
+                            )}
+                            {item.tags && (
+                                <div className="flex flex-wrap gap-2 mt-4">
+                                    {item.tags.map(tag => (
+                                        <span key={tag} className="text-xs text-neutral-500 bg-neutral-50 dark:bg-neutral-800/50 px-2 py-1 rounded border border-neutral-100 dark:border-neutral-800">
+                                            {tag}
+                                        </span>
+                                    ))}
+                                </div>
+                            )}
+                        </motion.div>
+                    ))}
+                </div>
+            )}
         </motion.div>
     );
 }

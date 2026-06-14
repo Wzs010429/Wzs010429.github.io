@@ -28,7 +28,14 @@ export interface CardItem {
     image?: string;
 }
 
+export interface CardSection {
+    title: string;
+    description?: string;
+    items: CardItem[];
+}
+
 export interface CardPageConfig extends BasePageConfig {
     type: 'card';
-    items: CardItem[];
+    items?: CardItem[];
+    sections?: CardSection[];
 }

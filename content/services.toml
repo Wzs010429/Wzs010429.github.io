@@ -1,58 +1,42 @@
 type = "card"
 title = "Services"
-description = "Professional services and community involvement."
+description = "Teaching and academic reviewing service."
 
-[[items]]
-title = "Guest Lecture"
-subtitle = "UoA COMPSCI 714 - AI Architecture and Design"
+[[sections]]
+title = "Teaching"
+description = "Guest lectures and course-related service."
+
+[[sections.items]]
+title = "UoA COMPSCI 714 - AI Architecture and Design"
+subtitle = "Guest Lecture"
 date = "2026"
 content = "Topic: Text-to-Image Diffusion Models: Limits and Control"
 
-[[items]]
-title = "Guest Lecture"
-subtitle = "UoA COMPSCI 713 - AI Fundamentals"
+[[sections.items]]
+title = "UoA COMPSCI 713 - AI Fundamentals"
+subtitle = "Guest Lecture"
 date = "2026"
 content = "Topic: Reinforcement Learning for LLMs: From Post-Training to Skills and Agentic Systems"
 
+[[sections]]
+title = "Conference and Peer Review"
+description = "Conference, journal, and workshop reviewing service."
 
-[[items]]
+[[sections.items]]
 title = "Conference Reviewer"
-subtitle = "ACM MM, ICONIP"
-date = "2026"
-content = "NA"
+date = "2024-2026"
+content = """
+- 2026: ACM MM; ICONIP; ACL Rolling Review (January)
+- 2025: AAAI; ACM MM; COLM; IJCNN; ICONIP; ACL Rolling Review (May, July, October)
+- 2024: IJCNN; ICONIP
+"""
 
-[[items]]
-title = "Conference Reviewer"
-subtitle = "ACL Rolling Review"
-date = "2026 January"
-content = "NA"
-
-[[items]]
-title = "Conference Reviewer"
-subtitle = "AAAI, ACM MM, COLM, IJCNN, ICONIP"
-date = "2025"
-content = "NA"
-
-[[items]]
-title = "Conference Reviewer"
-subtitle = "ACL Rolling Review"
-date = "2025 May, July, October"
-content = "NA"
-
-[[items]]
-title = "Conference Reviewer"
-subtitle = "IJCNN, ICONIP"
-date = "2024"
-content = "NA"
-
-[[items]]
+[[sections.items]]
 title = "Journal Reviewer"
-subtitle = "IEEE Transactions on Fuzzy Systems (Proof)"
 date = "2025"
-content = "NA"
+content = "IEEE Transactions on Fuzzy Systems (Proof)"
 
-[[items]]
+[[sections.items]]
 title = "Workshop Reviewer"
-subtitle = "Reasoning and Planning for Large Language Models @ ICLR 2025"
 date = "2025"
-content = "NA"
+content = "Reasoning and Planning for Large Language Models @ ICLR 2025"

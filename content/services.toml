@@ -3,6 +3,19 @@ title = "Services"
 description = "Professional services and community involvement."
 
 [[items]]
+title = "Guest Lecture"
+subtitle = "UoA COMPSCI 714 - AI Architecture and Design"
+date = "2026"
+content = "Topic: Text-to-Image Diffusion Models: Limits and Control"
+
+[[items]]
+title = "Guest Lecture"
+subtitle = "UoA COMPSCI 713 - AI Fundamentals"
+date = "2026"
+content = "Topic: Reinforcement Learning for LLMs: From Post-Training to Skills and Agentic Systems"
+
+
+[[items]]
 title = "Conference Reviewer"
 subtitle = "ACM MM, ICONIP"
 date = "2026"

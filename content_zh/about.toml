@@ -1,10 +1,6 @@
 type = "about"
 title = "关于"
 
-[profile]
-research_interests = ["多模态大模型", "AIGC", "自进化AI智能体", "多智能体系统"]
-hobbies = ["摄影", "美食", "网络游戏：明日方舟、无畏契约"]
-
 [[sections]]
 id = "about"
 type = "markdown"
@@ -23,6 +19,6 @@ limit = 3
 id = "news"
 type = "list"
 title = "动态"
-source = "news.toml"
+source = "news.md"
 limit = 6
 view_all_href = "/news"

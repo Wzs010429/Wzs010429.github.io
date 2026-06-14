@@ -1,26 +1,4 @@
-type = "card"
+type = "text"
 title = "Services"
 description = "Academic reviewing service."
-
-[[sections]]
-title = "Conference and Peer Review"
-description = "Conference, journal, and workshop reviewing service."
-
-[[sections.items]]
-title = "Conference Reviewer"
-date = "2024-2026"
-content = """
-- 2026: ACM MM; ICONIP; ACL Rolling Review (January)
-- 2025: AAAI; ACM MM; COLM; IJCNN; ICONIP; ACL Rolling Review (May, July, October)
-- 2024: IJCNN; ICONIP
-"""
-
-[[sections.items]]
-title = "Journal Reviewer"
-date = "2025"
-content = "IEEE Transactions on Fuzzy Systems (Proof)"
-
-[[sections.items]]
-title = "Workshop Reviewer"
-date = "2025"
-content = "Reasoning and Planning for Large Language Models @ ICLR 2025"
+source = "services.md"

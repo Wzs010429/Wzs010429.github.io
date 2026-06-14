@@ -1,10 +1,6 @@
 type = "about"
 title = "About"
 
-[profile]
-research_interests = ["MLLM", "AIGC", "Self-Evolving AI Agent", "Multi-agent System"]
-hobbies = ["Photography", "Delicacy", "Online games: Arknights, Valorant"]
-
 [[sections]]
 id = "about"
 type = "markdown"
@@ -23,6 +19,6 @@ limit = 3
 id = "news"
 type = "list"
 title = "News"
-source = "news.toml"
+source = "news.md"
 limit = 6
 view_all_href = "/news"

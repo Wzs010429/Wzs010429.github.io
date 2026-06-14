@@ -1,3 +1,5 @@
+[CV (Chinese PDF)](/CV_CN.pdf) · [CV (English PDF)](/CV_Eng.pdf)
+
 ## Education
 
 **University of Auckland**, PhD in Computer Science, 2025.04 - Present

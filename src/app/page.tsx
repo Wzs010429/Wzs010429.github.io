@@ -1,5 +1,5 @@
 import { getConfig } from '@/lib/config';
-import { getMarkdownContent, getBibtexContent, getTomlContent, getPageConfig } from '@/lib/content';
+import { getMarkdownContent, getMarkdownFrontmatter, getBibtexContent, getTomlContent, getPageConfig } from '@/lib/content';
 import { parseBibTeX } from '@/lib/bibtexParser';
 import HomePageClient, { type HomePageLocaleData } from '@/components/home/HomePageClient';
 import { Publication } from '@/types/publication';
@@ -24,11 +24,33 @@ interface NewsItem {
   content: string;
 }
 
+interface BioFrontmatter {
+  research_interests?: string[];
+  hobbies?: string[];
+}
+
 type PageData =
   | { type: 'about'; id: string; sections: SectionConfig[] }
   | { type: 'publication'; id: string; config: PublicationPageConfig; publications: Publication[] }
   | { type: 'text'; id: string; config: TextPageConfig; content: string }
   | { type: 'card'; id: string; config: CardPageConfig };
+
+function parseMarkdownNews(content: string): NewsItem[] {
+  return content
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter((line) => line.startsWith('- '))
+    .map((line) => {
+      const match = line.match(/^-\s+\*\*(.*?)\*\*\s*(.*)$/);
+      if (!match) return null;
+
+      return {
+        date: match[1].trim(),
+        content: match[2].trim(),
+      };
+    })
+    .filter((item): item is NewsItem => item !== null);
+}
 
 function processSections(sections: SectionConfig[], locale?: string): SectionConfig[] {
   return sections.map((section: SectionConfig) => {
@@ -50,10 +72,14 @@ function processSections(sections: SectionConfig[], locale?: string): SectionCon
         };
       }
       case 'list': {
-        const newsData = section.source ? getTomlContent<{ news: NewsItem[] }>(section.source, locale) : null;
+        const newsItems = section.source
+          ? section.source.endsWith('.md')
+            ? parseMarkdownNews(getMarkdownContent(section.source, locale))
+            : getTomlContent<{ news: NewsItem[] }>(section.source, locale)?.news || []
+          : [];
         return {
           ...section,
-          items: newsData?.news || [],
+          items: newsItems,
         };
       }
       default:
@@ -67,7 +93,8 @@ function loadPageDataForLocale(locale: string | undefined): HomePageLocaleData {
   const enableOnePageMode = localeConfig.features.enable_one_page_mode;
 
   const aboutConfig = getPageConfig<{ profile?: { research_interests?: string[]; hobbies?: string[] }; sections?: SectionConfig[] }>('about', locale);
-  const researchInterests = aboutConfig?.profile?.research_interests;
+  const bioFrontmatter = getMarkdownFrontmatter<BioFrontmatter>('bio.md', locale);
+  const researchInterests = bioFrontmatter?.research_interests || aboutConfig?.profile?.research_interests;
 
   let pagesToShow: PageData[] = [];
 
@@ -134,7 +161,7 @@ function loadPageDataForLocale(locale: string | undefined): HomePageLocaleData {
   features: localeConfig.features,
   enableOnePageMode,
   researchInterests,
-  hobbies: aboutConfig?.profile?.hobbies,
+  hobbies: bioFrontmatter?.hobbies || aboutConfig?.profile?.hobbies,
   pagesToShow,
   };
 }

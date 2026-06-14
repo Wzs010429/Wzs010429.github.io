@@ -1,3 +1,8 @@
++++
+research_interests = ["多模态大模型", "AIGC", "自进化AI智能体", "多智能体系统"]
+hobbies = ["摄影", "美食", "网络游戏：明日方舟、无畏契约"]
++++
+
 我目前是奥克兰大学计算机科学学院（School of Computer Science）的计算机科学二年级博士研究生，导师为 [Prof. Jiamou Liu（刘佳谋）](https://profiles.auckland.ac.nz/jiamou-liu) 与 [Dr. Qian Liu（刘茜）](https://profiles.auckland.ac.nz/liu-qian)
 
 在此之前，我于 2023 年获得[西南大学计算机与信息科学学院、软件学院](https://cis.swu.edu.cn/)计算机科学与技术专业学士学位，并于 2024 年获得[奥克兰大学计算机科学学院](https://www.auckland.ac.nz/en/science/about-the-faculty/school-of-computer-science.html)数据科学硕士学位

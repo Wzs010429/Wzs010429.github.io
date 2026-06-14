@@ -1,27 +1,4 @@
-type = "card"
+type = "text"
 title = "Awards"
 description = "Honors and awards I have received."
-
-[[sections]]
-title = "Honors"
-description = "Academic awards and recognitions."
-
-[[sections.items]]
-title = "Best Paper Nominee"
-subtitle = "AAMAS 2026"
-date = "2026"
-
-[[sections.items]]
-title = "Best Multimedia Award"
-subtitle = "ACM MM Asia 2025"
-date = "2025"
-
-[[sections.items]]
-title = "Master's Dissertation in First-Class"
-subtitle = "University of Auckland"
-date = "2024"
-
-[[sections.items]]
-title = "University-level scholarship"
-subtitle = "Southwest University"
-date = "2020, 2021, 2022"
+source = "awards.md"

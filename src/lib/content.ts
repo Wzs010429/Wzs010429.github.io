@@ -42,8 +42,41 @@ function readFirstAvailableFile(filename: string, locale?: string): string {
   return '';
 }
 
+function parseTomlFrontmatter(content: string): { data: Record<string, unknown>; content: string } {
+  if (!content.startsWith('+++')) {
+    return { data: {}, content };
+  }
+
+  const end = content.indexOf('\n+++', 3);
+  if (end === -1) {
+    return { data: {}, content };
+  }
+
+  const frontmatter = content.slice(3, end).trim();
+  const body = content.slice(end + 4).trimStart();
+
+  try {
+    return {
+      data: parse(frontmatter) as Record<string, unknown>,
+      content: body,
+    };
+  } catch (error) {
+    console.error('Error parsing markdown frontmatter:', error);
+    return { data: {}, content: body };
+  }
+}
+
 export function getMarkdownContent(filename: string, locale?: string): string {
-  return readFirstAvailableFile(filename, locale);
+  return parseTomlFrontmatter(readFirstAvailableFile(filename, locale)).content;
+}
+
+export function getMarkdownFrontmatter<T = Record<string, unknown>>(filename: string, locale?: string): T | null {
+  const content = readFirstAvailableFile(filename, locale);
+  if (!content) {
+    return null;
+  }
+
+  return parseTomlFrontmatter(content).data as T;
 }
 
 export function getBibtexContent(filename: string, locale?: string): string {

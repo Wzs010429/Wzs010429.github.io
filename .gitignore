@@ -16,6 +16,29 @@
 # next.js
 /.next/
 /out/
+/_next/
+
+# static export artifacts generated outside /out
+/404.html
+/404/
+/about/
+/awards/
+/cv/
+/news/
+/post/
+/publications/
+/services/
+/teaching/
+/index.html
+/index.txt
+/papers/
+/CNAME
+/.nojekyll
+/CV_CN.pdf
+/CV_Eng.pdf
+/fav.png
+/translate_icon.png
+/zhongsheng.jpg
 
 # production
 /build

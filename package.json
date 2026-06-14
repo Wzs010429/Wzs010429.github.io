@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "assets:convert": "node scripts/convert-post-assets.mjs",
+    "prebuild": "npm run assets:convert",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

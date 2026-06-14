@@ -47,6 +47,24 @@ content/notes/my-note.md -> /post/note/my-note/
 
 Files beginning with `_`, such as `_template.md`, are ignored by the site.
 
+Note images live in:
+
+```text
+public/post/notes/
+```
+
+The note filename maps to the image folder:
+
+```text
+content/notes/my-note.md -> public/post/notes/my-note/
+```
+
+Inside the Markdown file, reference images by filename:
+
+```md
+![Image description](image.webp)
+```
+
 ## Gallery
 
 Album text lives in:
@@ -81,6 +99,21 @@ cover = "cover-image.webp"
 
 Longer album notes can go here.
 ```
+
+## Image Conversion
+
+Post assets are converted before the site builds:
+
+```bash
+npm run assets:convert
+```
+
+`npm run build` runs this automatically. The script scans:
+
+- `public/post/gallery/`
+- `public/post/notes/`
+
+It converts `.jpg`, `.jpeg`, and `.png` files to `.webp` and removes the original raster file after a successful conversion. PDF files in those post asset folders are converted to a first-page `.webp`; the original PDF is kept unless `DELETE_PDF_ORIGINALS=1` is set.
 
 ## Publications
 

@@ -23,8 +23,10 @@ export interface GalleryAlbum {
 const CONTENT_DIR = path.join(process.cwd(), 'content');
 const NOTES_DIR = path.join(CONTENT_DIR, 'notes');
 const GALLERY_CONTENT_DIR = path.join(CONTENT_DIR, 'gallery');
+const NOTE_ASSETS_DIR = path.join(process.cwd(), 'public', 'post', 'notes');
 const GALLERY_ASSETS_DIR = path.join(process.cwd(), 'public', 'post', 'gallery');
 const GALLERY_IMAGE_EXTENSIONS = new Set(['.jpg', '.jpeg', '.png', '.webp', '.gif', '.avif']);
+const WEBP_SOURCE_EXTENSIONS = new Set(['.jpg', '.jpeg', '.png', '.pdf']);
 
 function parseFrontmatter(raw: string): { data: Record<string, string>; content: string } {
   if (!raw.startsWith('---')) {
@@ -95,12 +97,68 @@ export function getNote(slug: string): NotePost | null {
   return getNotes().find((post) => post.slug === slug) || null;
 }
 
-function getGalleryImagePath(slug: string, filename: string): string {
-  if (filename.startsWith('/')) {
+function splitAssetReference(src: string): { assetPath: string; suffix: string } {
+  const match = src.match(/^([^?#]*)([?#].*)?$/);
+  return {
+    assetPath: match?.[1] || src,
+    suffix: match?.[2] || '',
+  };
+}
+
+function isExternalOrAbsoluteAsset(src: string): boolean {
+  return (
+    src.startsWith('/') ||
+    src.startsWith('#') ||
+    /^(?:https?:)?\/\//.test(src) ||
+    /^(?:data|blob):/i.test(src)
+  );
+}
+
+function normalizeRelativeAssetPath(src: string): string | null {
+  const clean = src.replace(/\\/g, '/').replace(/^\.\/+/, '');
+  if (!clean || clean.split('/').some((part) => part === '..')) {
+    return null;
+  }
+
+  return clean;
+}
+
+function preferWebpAsset(assetRoot: string, slug: string, filename: string): string {
+  const ext = path.posix.extname(filename).toLowerCase();
+  if (!WEBP_SOURCE_EXTENSIONS.has(ext)) {
     return filename;
   }
 
-  return `/post/gallery/${slug}/${filename}`;
+  const webpFilename = `${filename.slice(0, -ext.length)}.webp`;
+  const webpPath = path.join(assetRoot, slug, ...webpFilename.split('/'));
+  return fs.existsSync(webpPath) ? webpFilename : filename;
+}
+
+function getPostAssetPath(assetRoot: string, publicPrefix: string, slug: string, filename: string): string {
+  if (isExternalOrAbsoluteAsset(filename)) {
+    return filename;
+  }
+
+  const { assetPath, suffix } = splitAssetReference(filename);
+  const clean = normalizeRelativeAssetPath(assetPath);
+  if (!clean) {
+    return filename;
+  }
+
+  const resolved = preferWebpAsset(assetRoot, slug, clean);
+  return `${publicPrefix}/${slug}/${resolved}${suffix}`;
+}
+
+export function getNoteAssetPath(slug: string, filename: string): string {
+  return getPostAssetPath(NOTE_ASSETS_DIR, '/post/notes', slug, filename);
+}
+
+export function getGalleryAssetPath(slug: string, filename: string): string {
+  return getPostAssetPath(GALLERY_ASSETS_DIR, '/post/gallery', slug, filename);
+}
+
+function getGalleryImagePath(slug: string, filename: string): string {
+  return getGalleryAssetPath(slug, filename);
 }
 
 function getAlbumImages(slug: string): string[] {

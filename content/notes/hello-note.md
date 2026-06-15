@@ -5,3 +5,5 @@ summary: "Notes for Stanford CS 336: Large Language Models from Scratch"
 ---
 
 # Lec 01
+
+先随便写点东西

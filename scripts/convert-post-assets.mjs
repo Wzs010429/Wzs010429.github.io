@@ -19,11 +19,18 @@ const DELETE_PDF_ORIGINALS = process.env.DELETE_PDF_ORIGINALS === '1';
 
 let sharp;
 
-try {
-  ({ default: sharp } = await import('sharp'));
-} catch {
-  console.error('Could not load sharp. Run npm install before converting post assets.');
-  process.exit(1);
+async function loadSharp() {
+  if (sharp) {
+    return sharp;
+  }
+
+  try {
+    ({ default: sharp } = await import('sharp'));
+    return sharp;
+  } catch {
+    console.error('Could not load sharp. Run npm install before converting post assets.');
+    process.exit(1);
+  }
 }
 
 async function pathExists(filePath) {
@@ -85,9 +92,10 @@ async function convertFile(source) {
   const tmpTarget = `${target}.tmp-${process.pid}.webp`;
 
   try {
+    const sharpConverter = await loadSharp();
     const pipeline = PDF_EXTENSIONS.has(ext)
-      ? sharp(source, { density: 180, pages: 1 })
-      : sharp(source).rotate();
+      ? sharpConverter(source, { density: 180, pages: 1 })
+      : sharpConverter(source).rotate();
 
     await pipeline.webp({ quality: QUALITY }).toFile(tmpTarget);
     await fs.rename(tmpTarget, target);
@@ -104,9 +112,15 @@ async function convertFile(source) {
 }
 
 const files = (await Promise.all(ASSET_ROOTS.map(walk))).flat();
+const sourceFiles = files.filter((file) => SOURCE_EXTENSIONS.has(path.extname(file).toLowerCase()));
 const results = [];
 
-for (const file of files) {
+if (sourceFiles.length === 0) {
+  console.log('No post assets needed conversion.');
+  process.exit(0);
+}
+
+for (const file of sourceFiles) {
   results.push(await convertFile(file));
 }
 

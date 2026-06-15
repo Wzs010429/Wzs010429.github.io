@@ -35,13 +35,12 @@ export default async function GalleryAlbumPage({ params }: { params: Promise<{ a
               ol: ({ children }) => <ol className="list-decimal list-inside mb-4 space-y-1 ml-4">{children}</ol>,
               a: ({ ...props }) => <a {...props} target="_blank" rel="noopener noreferrer" className="text-accent font-medium hover:underline" />,
               strong: ({ children }) => <strong className="font-semibold text-primary">{children}</strong>,
-              img: ({ src, alt, node: _node, ...props }) => {
+              img: ({ src, alt }) => {
                 const imageSrc = typeof src === 'string' ? getGalleryAssetPath(slug, src) : src;
 
                 return (
                   <span className="block my-6 overflow-hidden rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900">
                     <img
-                      {...props}
                       src={imageSrc}
                       alt={alt || ''}
                       loading="lazy"

@@ -32,13 +32,12 @@ export default async function NotePage({ params }: { params: Promise<{ slug: str
             ul: ({ children }) => <ul className="list-disc list-inside mb-4 space-y-1 ml-4">{children}</ul>,
             ol: ({ children }) => <ol className="list-decimal list-inside mb-4 space-y-1 ml-4">{children}</ol>,
             strong: ({ children }) => <strong className="font-semibold text-primary">{children}</strong>,
-            img: ({ src, alt, node: _node, ...props }) => {
+            img: ({ src, alt }) => {
               const imageSrc = typeof src === 'string' ? getNoteAssetPath(slug, src) : src;
 
               return (
                 <span className="block my-6 overflow-hidden rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900">
                   <img
-                    {...props}
                     src={imageSrc}
                     alt={alt || ''}
                     loading="lazy"

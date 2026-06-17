@@ -1,3 +1,4 @@
+- **2026-05** 🎉 R-Debater (published on AAMAS 2026) has won the Best Paper Award.
 - **2026-04** 🎉 I just finished my oral presentation in provisional year review. Formally become a PhD candidate!
 - **2026-01** 🎉 One paper was accepted by Artificial Intelligence Review (2nd author), thanks to all contributors!
 - **2025-12** 🎉 Our paper presented in ACM Multimedia Aisa has won the Best Multimedia Award!

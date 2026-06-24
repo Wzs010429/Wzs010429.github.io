@@ -4,7 +4,7 @@
 
 **2024-2026**
 
-- 2026: ACM MM; ICONIP; ACL Rolling Review (January)
+- 2026: ACM MM; ICONIP; ACL Rolling Review (January), AAAI
 - 2025: AAAI; ACM MM; COLM; IJCNN; ICONIP; ACL Rolling Review (May, July, October)
 - 2024: IJCNN; ICONIP
 

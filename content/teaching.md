@@ -14,6 +14,14 @@ Topic: Reinforcement Learning for LLMs: From Post-Training to Skills and Agentic
 
 ## Teaching Assistantships
 
+### COMPSCI 220 Algorithms and Data Structures
+
+**Graduate Teaching Assistant** · 2026 Semester 2
+
+Taught by Dr. Michelle Zhang and Dr. David Welch.
+
+Tags: Undergraduate, CS
+
 ### COMPSCI 767 Intelligent Software Agents
 
 **Graduate Teaching Assistant** · 2026 Semester 1

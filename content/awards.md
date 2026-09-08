@@ -1,8 +1,7 @@
-## Honors
-
 ### The Computer Science Graduate Student Travel (CSGST) Award
 
 **University of Auckland** · 2026
+
 
 ### Best Paper Nominee
 
@@ -19,3 +18,5 @@
 ### University-level scholarship
 
 **Southwest University** · 2020, 2021, 2022
+
+

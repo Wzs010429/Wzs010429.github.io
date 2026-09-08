@@ -1,3 +1,18 @@
+@inproceedings{wang2026sdo,
+  title = {SDO: Subspace Deconflicting Operator for Multi-Adapter Composition},
+  author = {Wang, Zhongsheng and Lin, Zhedong and Liu, Qian and Zhang, Xinyu and Liu, Jiamou},
+  year = {2026},
+  journal = {Proceedings of the 34th ACM International Conference on Multimedia},
+  publisher = {ACM},
+  type = {conference},
+  status = {accepted},
+  researchArea = {machine-learning},
+  abstract = {Composing independently trained adapters within a shared diffusion backbone provides a modular approach to multi-character generation, but naive joint deployment often causes identity mixing, cross-character attribute leakage, and unstable scene composition. We study this interference from a parameter-space perspective and hypothesize that it arises partly from conflicts between overlapping dominant subspaces in shared layers. To address this issue, we propose SDO, a Subspace Deconflicting Operator for multi-adapter composition. SDO reconstructs layer-wise low-rank updates from the selected adapters, extracts compact subspace signatures, measures pairwise conflict through output-subspace overlap, and applies a permutation-equivariant transformation that suppresses harmful shared directions while retaining identity-specific characteristics. The resulting representations are mapped back to standard adapter updates and can be directly incorporated into existing diffusion inference pipelines. Experiments demonstrate that SDO consistently improves identity fidelity and compositional stability, with particularly clear gains as the number of jointly composed adapters increases.},
+  doi = {https://doi.org/10.48550/arXiv.2608.13820},
+  selected = {true},
+  description = {Introduces SDO, a parameter-space operator for reducing interference when composing multiple independently trained adapters in diffusion models, improving identity fidelity and compositional stability in multi-character generation.}
+}
+
 @article{lin2026narratology,
   title = {Narratology meets text-to-image: a survey of consistency in AI generated storybook illustrations},
   author = {Lin, Zhedong and Wang, Zhongsheng and Liu, Qian and Zhang, Xinyu and Liu, Jiamou},
@@ -80,7 +95,7 @@
   slides = {ChatLogicSlides.pdf},
   poster = {ChatLogicPoster.pdf},
   organization = {IEEE},
-  selected = {true},
+  selected = {false},
   preview = {chatlogic.png},
   description = {This paper proposes a bidirectional transformation method that converts natural language inference into logical code to enhance the multi-step reasoning ability of LLM.},
   code = {https://github.com/Strong-AI-Lab/ChatLogic}

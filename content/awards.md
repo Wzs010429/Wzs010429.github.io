@@ -1,5 +1,9 @@
 ## Honors
 
+### The Computer Science Graduate Student Travel (CSGST) Award
+
+**University of Auckland** · 2026
+
 ### Best Paper Nominee
 
 **AAMAS 2026** · 2026

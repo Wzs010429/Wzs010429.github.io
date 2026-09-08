@@ -1,3 +1,4 @@
+- **2026-08** 🎉 One papers was accepted by EMNLP 2026!
 - **2026-07** 🎉 Two papers was accepted by ACM MM 2026 (1st author and 1st co-author), thanks to all contributors!
 - **2026-05** 🎉 R-Debater (published on AAMAS 2026) has won the Best Paper Award.
 - **2026-04** 🎉 I just finished my oral presentation in provisional year review. Formally become a PhD candidate!

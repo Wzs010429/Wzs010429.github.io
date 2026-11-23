@@ -2,15 +2,43 @@
   title = {SDO: Subspace Deconflicting Operator for Multi-Adapter Composition},
   author = {Wang, Zhongsheng and Lin, Zhedong and Liu, Qian and Zhang, Xinyu and Liu, Jiamou},
   year = {2026},
-  journal = {Proceedings of the 34th ACM International Conference on Multimedia},
+  booktitle = {Proceedings of the 34th ACM International Conference on Multimedia},
   publisher = {ACM},
   type = {conference},
-  status = {accepted},
+  status = {published},
   researchArea = {machine-learning},
   abstract = {Composing independently trained adapters within a shared diffusion backbone provides a modular approach to multi-character generation, but naive joint deployment often causes identity mixing, cross-character attribute leakage, and unstable scene composition. We study this interference from a parameter-space perspective and hypothesize that it arises partly from conflicts between overlapping dominant subspaces in shared layers. To address this issue, we propose SDO, a Subspace Deconflicting Operator for multi-adapter composition. SDO reconstructs layer-wise low-rank updates from the selected adapters, extracts compact subspace signatures, measures pairwise conflict through output-subspace overlap, and applies a permutation-equivariant transformation that suppresses harmful shared directions while retaining identity-specific characteristics. The resulting representations are mapped back to standard adapter updates and can be directly incorporated into existing diffusion inference pipelines. Experiments demonstrate that SDO consistently improves identity fidelity and compositional stability, with particularly clear gains as the number of jointly composed adapters increases.},
-  doi = {https://doi.org/10.48550/arXiv.2608.13820},
+  pages = {11182--11190},
+  url = {https://arxiv.org/abs/2608.13820},
+  doi = {10.1145/3767308.3835571},
   selected = {true},
   description = {Introduces SDO, a parameter-space operator for reducing interference when composing multiple independently trained adapters in diffusion models, improving identity fidelity and compositional stability in multi-character generation.}
+}
+
+@inproceedings{luo2026bedaiati,
+  title = {BedaiaTi.ai: Model-Harnessed Agentic AI for Culturally Grounded Storybook Creation},
+  author = {Luo, Hongcang and Wang, Zhongsheng and Chen, Wei and Zhang, Ruoyu and Yin, Sijing and Zhao, Han and Shakib, Yaser and Liu, Jiamou},
+  year = {2026},
+  booktitle = {Proceedings of the 34th ACM International Conference on Multimedia},
+  pages = {17211--17213},
+  doi = {10.1145/3767308.3839027},
+  type = {conference},
+  status = {published},
+  researchArea = {machine-learning},
+  selected = {false}
+}
+
+@inproceedings{deng2026cler,
+  title = {CLER: Improving Multimodal Financial Reasoning by Cross-MLLM Error Reflection},
+  author = {Deng, Shuangyan and Wang, Zhongsheng and Mao, Rui and Giurcăneanu, Ciprian Doru and Liu, Jiamou},
+  year = {2026},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  pages = {30494--30502},
+  doi = {10.1609/aaai.v40i36.40303},
+  type = {conference},
+  status = {published},
+  researchArea = {machine-learning},
+  selected = {false}
 }
 
 @article{lin2026narratology,
@@ -23,7 +51,7 @@
   status = {published},
   researchArea = {machine-learning},
   abstract = {Text‑to‑image models are rapidly advancing into creative practice and increasingly support generating illustrated storybooks, i.e., sequential and image‑based narratives conditioned on written text. Previous surveys have examined challenges in video coherence or single‑image fidelity; however, no comprehensive review addresses the unique requirements of storybook illustration. This survey fills this gap by grounding AI‑illustrated storybook generation in a narratology framework. Specifically, it introduces a six‑dimensional consistency model encompassing time, space, character, event and plot, style and theme. For each dimension the authors consolidate definitions, representative methods, datasets and evaluation metrics, mapping the current landscape of the field. Building on this analysis they further identify cross‑dimensional failure modes and limitations of current approaches. Finally, the survey proposes potential future research directions, including the development of book‑scale integrated evaluation systems tailored for illustrated storybooks, more robust and controllable generation pipelines, enhanced multimodal semantic–visual alignment mechanisms and the establishment of reader‑oriented safety and educational guidelines.},
-  doi = {https://doi.org/10.1007/s10462-025-11482-6},
+  doi = {10.1007/s10462-025-11482-6},
   selected = {true},
   description = {Provides a comprehensive survey that grounds AI‑generated storybook illustration in narratology, defining six dimensions of consistency and reviewing methods, datasets, metrics and challenges across time, space, character, plot, style and theme.}
 }
@@ -46,11 +74,13 @@
 @inproceedings{li2025r,
   title = {R-Debater: Retrieval-Augmented Debate Generation through Argumentative Memory},
   author = {Li, Maoyuan and Wang, Zhongsheng and Li, Haoyuan and Liu, Jiamou},
-  year = {2025},
+  year = {2026},
   type = {conference},
   status = {published},
   researchArea = {machine-learning},
-  booktitle = {arXiv preprint arXiv:2512.24684},
+  booktitle = {Proceedings of the 25th International Conference on Autonomous Agents and Multiagent Systems},
+  pages = {910--919},
+  url = {https://ifaamas.org/Proceedings/aamas2026/pdfs/XWXH6253.pdf},
   abstract = {We present R-Debater, an agentic framework for generating multi-turn debates built on argumentative memory. Grounded in rhetoric and memory studies, the system views debate as a process of recalling and adapting prior arguments to maintain stance consistency, respond to opponents, and support claims with evidence. Specifically, R-Debater integrates a debate knowledge base for retrieving case-like evidence and prior debate moves with a role-based agent that composes coherent utterances across turns. We evaluate on standardized ORCHID debates, constructing a 1,000-item retrieval corpus and a held-out set of 32 debates across seven domains. Two tasks are evaluated: next-utterance generation, assessed by InspireScore (subjective, logical, and factual), and adversarial multi-turn simulations, judged by Debatrix (argument, source, language, and overall). Compared with strong LLM baselines, R-Debater achieves higher single-turn and multi-turn scores. Human evaluation with 20 experienced debaters further confirms its consistency and evidence use, showing that combining retrieval grounding with structured planning yields more faithful, stance-aligned, and coherent debates across turns.},
   selected = {false},
   preview = {R-debater.png},
